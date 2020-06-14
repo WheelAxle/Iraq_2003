@@ -1,0 +1,11 @@
+<model>
+    <voxels>
+        <voxel x="-11" y="4" z="-1" r="0.240845" g="0.000000" b="0.000000" a="1.000000" />
+    </voxels>
+    <skeleton />
+    <skeletonVoxelBindings>
+        <group constraintIndex="0">
+            <voxel index="0" />
+        </group>
+    </skeletonVoxelBindings>
+</model>

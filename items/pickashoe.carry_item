@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Pikachu" key="pickashoe.carry_item">
+    <hud_icon filename="hud_pickashoe.png" />
+    <inventory encumbrance="0.5" price="400.0" />
+
+    <model mesh_filename="pickashoe.mesh" texture_filename="pickashoe.png" />
+
+    <commonness value="0" in_stock="0" />
+</carry_item>

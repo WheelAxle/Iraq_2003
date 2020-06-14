@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package  
+  name="Marching into the New Millennium"
+  description="The Iraq War was an armed conflict that began in 2003 with the invasion of Iraq by a United States-led coalition that overthrew the government of Saddam Hussein. The conflict continued for much of the next decade as an insurgency emerged to oppose the occupying forces and the post-invasion Iraqi government."
+  
+  image="2003_campaign_preview.png"
+  show_in_campaign_menu="1"
+   show_in_quick_match_mods = "1"
+  campaign_entry_script="start_campaign.as">
+
+	<campaign_options 
+		faction="1" 
+		presets="1"
+		friendly_fire="1"
+		friendly_capacity="1"
+		enemy_capacity="1"
+		friendly_accuracy="1"
+		enemy_accuracy="1"
+		xp_multiplier="1"
+		rp_multiplier="1" />
+
+</package>

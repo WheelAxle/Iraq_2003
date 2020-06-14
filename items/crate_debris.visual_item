@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="crate_debris.visual_item">
+    <model mesh_filename="crate_debris1.xml" />
+</visual_item>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1" clear_weapons="1">
+
+	<weapon key='asval.weapon' />
+	<weapon key='aks74u.weapon' />
+	<weapon key='g3.weapon' />
+
+	<weapon key='rpg-18.weapon' /> 
+
+	<projectile key='rgd_grenade.projectile' />
+	<projectile key='stun_grenade.projectile' />    
+</resources>

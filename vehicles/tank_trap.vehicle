@@ -1,0 +1,21 @@
+<vehicle name="" key="tank_trap.vehicle" map_view_atlas_index="15" respawn_time="10000.0">
+	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
+	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />
+  
+    <modifier class="blast_range" value="-6.0" />
+
+	<control max_speed="60.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
+                                                                                                                                                       
+	<physics max_health="8.0" mass="100000" extent="0.8 0.0 0.8" offset="0 0.0 0" top_offset="0 1 0" collision_model_pos="0 0.2 0" collision_model_extent="1.0 1.0 1.0" visual_offset="0 0.0 0.0" /> 
+
+	<visual class="chassis" mesh_filename="tank_trap.mesh" texture_filename="concrete.png" />
+  
+	<event>
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0" />
+	</event>
+
+	<effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
+	<effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
+  <effect event_key="slide_hard" type="splat_map" surface_tag="road" size="2.0" atlas_index="5" layer="0" />   
+</vehicle>

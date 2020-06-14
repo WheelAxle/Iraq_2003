@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="benelli_m4.weapon">
+    <tag name="cqb" />
+    <specification 
+    retrigger_time="0.333" 
+    accuracy_factor="0.8" 
+    sustained_fire_grow_step="2.0" 
+    sustained_fire_diminish_rate="0.6" 
+    magazine_size="12" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="M1014" 
+    class="4" 
+    reload_one_at_a_time="1" 
+    sight_range_modifier="1.0" 
+    projectile_speed="94.0" 
+    projectiles_per_shot="5" 
+    burst_shots="1" />
+    <animation key="recoil" ref="27" />
+    <animation key="reload" ref="29" />
+    <sound key="fire" fileref="benelli_m4_shot.wav"  volume="0.8" />
+    <sound key="cycle" fileref="mossberg500_cycle.wav" />
+    <sound key="reload_one" fileref="mossberg500_reload.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="benelli_m4.xml" />
+
+    <hud_icon filename="hud_benelli_m4.png" />
+    <commonness value="0.0006" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="100.0" />
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.65" kill_decay_start_time="0.25" kill_decay_end_time="0.32" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.6" />
+    <stance state_key="walking" accuracy="0.85" />
+    <stance state_key="crouch_moving" accuracy="0.6" />
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.85" />
+    <stance state_key="prone" accuracy="0.85" /> 
+    <stance state_key="prone_moving" accuracy="0.3" />
+    <stance state_key="over_wall" accuracy="0.85" />     
+    
+    <modifier class="speed" value="-0.00" />    
+</weapon>
+

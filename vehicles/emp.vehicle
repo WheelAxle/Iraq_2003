@@ -1,0 +1,14 @@
+<vehicle name="" key="emp.vehicle" map_view_atlas_index="-1" time_to_live="0.0" max_character_collision_speed="-1" max_character_collision_speed_on_normal="-1" >
+	<tire_set offset="0.0 0.0 0.01" radius="0.01" />
+	<tire_set offset="0.0 0.0 -0.01" radius="0.01" />
+
+	<control max_speed="20.0" acceleration="6.0" max_reverse_speed="5.0" max_rotation="0.8" max_water_depth="0.2" steer_smoothening="0.1" />
+
+	<physics max_health="0.0" mass="0.0" extent="0.0 0.0 0.0" offset="0 0.0 0" top_offset="0 0.0 0" collision_model_pos="0 0.0 0" collision_model_extent="0.0 0.0 0.0" visual_offset="0 0.0 0" /> 
+
+ 	<event>
+		<trigger class="destroy" />
+ 	<result class="spawn" instance_class="projectile" instance_key="emp_blast.projectile" min_amount="1" max_amount="1" offset="0 0.0 0" position_spread="0 0" direction_spread="0 0" />
+ 	</event>
+
+</vehicle>

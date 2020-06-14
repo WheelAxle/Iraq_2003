@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="30mm" key="30mm.projectile" slot="2" pulldown_in_air="0.0">
+
+    <result class="spawn" instance_class="projectile" instance_key="30mm_blast.projectile" min_amount="1" max_amount="1" offset="0 0 0" position_spread="0 0" direction_spread="0 0" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+
+    <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
+	
+    <trail probability="1.0" />
+
+</projectile>

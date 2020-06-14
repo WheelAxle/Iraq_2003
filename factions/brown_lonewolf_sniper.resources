@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='dragunov_svd_supp.weapon' />
+	<weapon key='vss_vintorez.weapon' />
+
+	<call key="gunrun2.call" />
+	<call key="artillery1.call" />
+	<call key="paratroopers3.call" />
+</resources>

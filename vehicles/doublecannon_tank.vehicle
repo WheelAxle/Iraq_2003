@@ -1,0 +1,58 @@
+<vehicle file="vehicle_base.vehicle" name="Tank" key="tank1">
+	<tire_set offset="1.8 0.0 +3" radius="0.52" />
+	<tire_set offset="1.8 0.0 -3" radius="0.52" />
+
+	<control max_speed="5.0" acceleration="9.0" max_reverse_speed="5.0" max_rotation="0.0" max_water_depth="1.0" steer_smoothening="0.0" tracked="1" gears="1" />
+
+	<physics max_health="3.0" mass="40.0" extent="3.6 0.0 9.0" offset="0 1.0 0" top_offset="0 20.0 0" collision_model_pos="0 1.0 0" collision_model_extent="4.0 3.5 8.0" visual_offset="0 -0.3 0.0" /> 
+
+	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
+	<!-- similarly, a controllable turret can only exist if it has a weapon -->
+	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
+	<turret offset="0 3.8 0.0" weapon_key="tank_cannon.weapon" weapon_offset="-0.5 -0.5 3.8" max_rotation_step="0.0001" />
+	<turret offset="0 3.8 0.0" weapon_key="tank_cannon.weapon" weapon_offset="0.5 -0.5 3.8" max_rotation_step="0.0001" />
+
+	<visual class="chassis" mesh_filename="tank_body.mesh" texture_filename="tank.png" max_tilt="0.06" />
+	<visual class="chassis" key="broken" mesh_filename="jeep_body_broken.mesh" texture_filename="jeep_body_broken.png" />
+	<visual class="turret" turret_index="0" mesh_filename="tank_turret.mesh" texture_filename="tank.png" />
+
+	<visual class="track" mesh_filename="tank_track.mesh" offset="-1.6 0.5 0" >
+		<part texture_filename="tank_body.png" />
+		<part texture_filename="tank_track.png" texture_animation="translate" tire_binding="0" />
+		<part texture_filename="tank_wheel.png" texture_animation="rotate" tire_binding="0" />
+	</visual>
+
+	<visual class="track" mesh_filename="tank_track.mesh" offset="+1.6 0.5 0" >
+		<part texture_filename="tank_body.png" />
+		<part texture_filename="tank_track.png" texture_animation="translate" tire_binding="1" />
+		<part texture_filename="tank_wheel.png" texture_animation="rotate" tire_binding="1" />
+	</visual>
+
+	<character_slot type="driver" position="1.0 0.5 2" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.0 0.5 -0.7" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+
+	<character_slot type="passenger" position="0.425 0.55 -2.1" rotation="1.57" exit_rotation="1.57" hiding="1" animation_id="37" />
+	<character_slot type="passenger" position="-0.425 0.55 -2.1" rotation="-1.57" exit_rotation="-1.57" hiding="1" animation_id="37" />
+
+	<!-- sound handling -->
+	<!--
+	<rev_sound filename="jeep_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.2" volume="0.8" />
+	<rev_sound filename="jeep_rev1.wav" low_pitch="0.5" high_pitch="1.1" low_rev="0.1" high_rev="1.0" volume="1.0" />
+	-->
+	<rev_sound filename="jeep2_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.3" volume="0.8" />
+	<rev_sound filename="jeep2_rev2.wav" low_pitch="0.6" high_pitch="1.0" low_rev="0.1" high_rev="0.7" volume="0.65" />
+	<rev_sound filename="jeep2_rev3.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.5" high_rev="1.0" volume="0.8" />
+
+	<sound key="slide" filename="slide_noise.wav" />
+	<sound key="squeal" filename="tire_squeal.wav" />
+	<sound key="ignition" filename="jeep2_ignition.wav" />
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="hit" filename="car_hit3.wav" />
+
+	<event>
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0015" />
+	</event>
+
+</vehicle>

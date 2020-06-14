@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<projectile key='f1_grenade.projectile' />
+	<projectile key='ied.projectile' />
+	<projectile key='flare.projectile' />
+	<projectile key='at_mine.projectile' />
+	<projectile key='rock_false.projectile' />
+
+	<weapon key='bayonet_n.weapon' />
+	<weapon key='bandage2.weapon' />
+
+ 	<vehicle key="jeep_1.vehicle" />
+ 	<vehicle key="apc_1.vehicle" />
+ 	<vehicle key="tank_1.vehicle" />
+ 	<vehicle key="transport_truck_1.vehicle" />  
+
+ 	<vehicle key="tank_1_para.vehicle" />
+
+	<call key="tank_1.call" />
+
+	<call key="mortar1_in.call" />
+	<call key="mortar2_in.call" />
+	<call key="artillery1.call" />
+	<call key="artillery2.call" />
+	<call key="paratroopers1.call" />
+	<call key="paratroopers2.call" />
+	<call key="paratroopers_medic.call" />    
+	<call key="cheap_cover.call" />
+	<call key="technical.call" />
+</resources>

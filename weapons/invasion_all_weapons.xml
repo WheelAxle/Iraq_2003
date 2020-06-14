@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+  <weapon file="m16a1.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+
+  <weapon file="ak47.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+
+  <weapon file="m16a2.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+
+  <weapon file="akm.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+
+  <weapon file="aks74u.weapon">
+    <commonness value="0.0005" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon>
+
+  <weapon file="m16a3.weapon">  
+    <commonness value="0.01" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+  </weapon>
+
+  <weapon file="m4.weapon">  
+    <commonness value="0.01" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+  </weapon>
+
+
+  <weapon file="fal_bayonet.weapon">  
+    <commonness value="0.01" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+  </weapon>
+
+
+  <weapon file="apc_hmg.weapon">
+  </weapon>
+
+  <weapon file="dragunov_svd.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.15" value="1" />
+  </weapon>
+
+  <weapon file="m40a3.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.15" value="1" />
+  </weapon>
+
+  <weapon file="mosin.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon>
+
+  <weapon file="m40a3_supp.weapon">
+    <commonness value="0.02" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.25" value="1" />
+  </weapon> 
+
+  <weapon file="m21_supp.weapon">
+    <commonness value="0.05" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.25" value="1" />
+  </weapon> 
+
+  <weapon file="mosin_supp.weapon">
+    <commonness value="0.05" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.25" value="1" />
+  </weapon> 
+
+  <weapon file="dragunov_svd_supp.weapon">
+    <commonness value="0.05" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.25" value="1" />
+  </weapon> 
+
+  <weapon file="m1a1.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.15" value="1" />
+  </weapon>
+
+  <weapon file="m14.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.15" value="1" />
+  </weapon>
+
+  <weapon file="tabuk.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.15" value="1" />
+  </weapon>
+
+  <weapon file="vss_vintorez.weapon">
+    <commonness value="0.02" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="1" />
+  </weapon>
+
+  <weapon file="sks_supp.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+  </weapon>
+
+  <weapon file="sks.weapon">
+    <commonness value="0.001" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.5" value="1" />
+  </weapon>
+
+  <weapon file="sks.weapon">
+    <commonness value="0.0001" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="1" />
+  </weapon>
+
+  <weapon file="xm8.weapon">
+    <commonness value="0.004" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.3" value="1" />
+  </weapon>
+
+  <weapon file="riot_shield.weapon">
+  </weapon>
+
+  <weapon file="m240.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.025" value="1" />
+  </weapon>
+
+  <weapon file="pkm.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.05" value="1" />    
+  </weapon>
+
+  <weapon file="mg42.weapon"> 
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.025" value="1" />
+  </weapon> 
+
+  <weapon file="pecheneg_bullpup.weapon">
+    <commonness value="0.00005" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.5" value="1" />
+  </weapon>   
+
+  <weapon file="ares_shrike.weapon">  
+    <commonness value="0.01" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.5" value="1" />
+  </weapon> 
+
+  <weapon file="m60e4.weapon">
+    <commonness value="0.01" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.6" value="1" />
+  </weapon>
+
+  <weapon file="stoner_lmg.weapon">
+    <commonness value="0.0003" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon>
+
+  <weapon file="m249.weapon">
+    <commonness value="0.0003" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon>
+
+  <weapon file="stoner62.weapon"> 
+    <commonness value="0.0002" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.5" value="1" />  
+  </weapon> 
+
+  <weapon file="mp5sd.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+  </weapon>
+
+  <weapon file="mp5.weapon">
+    <commonness value="0.02" in_stock="0" /> 
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+  </weapon>
+
+  <weapon file="asval.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+  </weapon>
+
+  <weapon file="ppsh.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+  </weapon>
+
+  <weapon file="p90.weapon">
+    <commonness value="0.2" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.3" value="1" />
+  </weapon>
+
+  <weapon file="m3a1.weapon">
+    <commonness value="0.05" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.3" value="1" />
+  </weapon>
+
+
+  <weapon file="saiga.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+
+  <weapon file="mossberg.weapon">
+    <capacity source="rank" source_value="0.0" value="1" />
+  </weapon>
+
+  <weapon file="benelli_m4.weapon">
+    <commonness value="0.06" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="1" />
+  </weapon>
+
+  <weapon file="benelli_m4_supp.weapon">
+    <commonness value="0.04" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="1" />
+  </weapon>
+
+  <weapon file="aa-12.weapon">
+    <commonness value="0.01" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.3" value="1" />
+  </weapon>
+
+  <weapon file="ns2000.weapon">
+    <commonness value="0.0005" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="1" />
+  </weapon>
+
+  <weapon file="jackhammer.weapon">
+    <commonness value="0.0001" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.6" value="1" />  
+  </weapon> 
+  
+  <weapon file="uts15.weapon">
+    <commonness value="0.004" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.25" value="1" />  
+  </weapon>     
+
+  <weapon file="tank_cannon.weapon" />
+  <weapon file="tank_mg.weapon" />
+
+  <weapon file="medikit.weapon" />
+  <weapon file="fak.weapon" />
+  <weapon file="bandage2.weapon" />
+
+  <weapon file="tow.weapon" />
+
+  <weapon file="cover_resource.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.025" value="1" />    
+    <capacity source="rank" source_value="0.2" value="2" />
+  </weapon>
+
+  <weapon file="humvee_mg.weapon"/>
+
+  <weapon file="rpg-7.weapon" >
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.05" />
+    <capacity value="2" source="rank" source_value="0.2" />
+  </weapon>
+
+  <weapon file="rpg-29.weapon" >
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.05" />
+    <capacity value="2" source="rank" source_value="0.2" />
+  </weapon>
+
+  <weapon file="rpg-18.weapon" >
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.05" />
+    <capacity value="2" source="rank" source_value="0.2" />
+  </weapon>
+
+  <weapon file="m72_law.weapon">
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.05" />
+    <capacity value="2" source="rank" source_value="0.2" />
+  </weapon>
+
+  <weapon file="smaw.weapon">
+    <commonness value="0.02" in_stock="1" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />       
+  </weapon>      
+
+  <weapon file="javelin.weapon">
+    <commonness value="0.01" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.15" value="1" />
+    <capacity source="rank" source_value="0.25" value="2" />
+    <capacity source="rank" source_value="0.5" value="3" />        
+  </weapon> 
+
+  <weapon file="mg_resource.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon>
+
+  <weapon file="deployable_mg.weapon" />
+  <weapon file="patrol_ship_mg.weapon" />
+  <weapon file="patrol_ship_cannon.weapon" />
+  <weapon file="patrol_ship_mortar.weapon" />
+
+  <weapon file="deployable_minig.weapon" />
+  <weapon file="minig_resource.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon>
+
+  <weapon file="mortar.weapon" />
+  <weapon file="mortar_resource.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon>
+
+  <weapon file="beretta_m9.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.075" value="1" />
+  </weapon>
+
+
+  <weapon file="pb.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.075" value="1" />
+  </weapon>
+
+  <weapon file="xm25.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="1" />
+  </weapon>
+
+  <weapon file="tow.weapon" />
+  <weapon file="tow_resource.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.5" value="1" />
+    <capacity source="rank" source_value="1.0" value="2" />
+  </weapon>
+
+  <weapon file="apc_hmg_1.weapon" />
+  <weapon file="apc_hmg_2.weapon" />
+  <weapon file="tank_cannon_1.weapon" />
+  <weapon file="tank_cannon_2.weapon" />
+
+  <weapon file="tank2_cannon.weapon" />
+  <weapon file="tank2_mg.weapon" />
+  <weapon file="tank2_missile_launcher.weapon" />
+  
+  <weapon file="tank_mg_1.weapon" />
+  <weapon file="tank_mg_2.weapon" />  
+  
+	<weapon file="desert_eagle.weapon">
+		<capacity source="rank" source_value="0.0" value="0" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>
+  
+	<weapon file="scorpion.weapon">
+		<capacity source="rank" source_value="0.0" value="0" />
+		<capacity source="rank" source_value="0.1" value="1" />
+	</weapon>  
+  
+ 	 <weapon file="beretta_93r.weapon">
+		<capacity source="rank" source_value="0.0" value="0" />
+		<capacity source="rank" source_value="0.1" value="1" />
+  	</weapon>   
+
+	<weapon file="binoculars.weapon"> 
+		<capacity source="rank" source_value="0.0" value="0" />
+		<capacity source="rank" source_value="0.025" value="1" />
+	</weapon>   
+
+  
+  
+  <weapon file="vulcan_tank_mg.weapon" />
+  <weapon file="buggy_mg.weapon" />
+  
+  <weapon file="model_29.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.3" value="1" />
+  </weapon>  
+  
+  <weapon file="m712.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.3" value="1" />
+  </weapon> 
+   
+      
+  <weapon file="m202_flash.weapon">
+    <commonness value="0.06" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.6" value="1" />
+    <capacity source="rank" source_value="0.8" value="2" /> 
+    <capacity source="rank" source_value="1.0" value="3" />       
+  </weapon> 
+
+  <weapon file="claymore_resource.weapon">
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.1" value="1" />
+    <capacity source="rank" source_value="0.2" value="2" />
+    <capacity source="rank" source_value="0.6" value="3" />
+  </weapon>
+
+  <weapon file="scarssr.weapon">
+    <commonness value="0.0002" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.6" value="1" />
+  </weapon> 
+ 
+  
+  <weapon file="chain_saw.weapon">
+    <commonness value="0.00005" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.5" value="1" />
+  </weapon> 
+  
+  <weapon file="deployable_gl.weapon" />
+  <weapon file="gl_resource.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.3" value="1" />
+    <capacity source="rank" source_value="0.5" value="2" />    
+  </weapon>  
+
+	<weapon file="humvee_gl.weapon" />
+  
+
+  <weapon file="m113_tank_cannon.weapon" /> 
+  <weapon file="mortar_vulcan.weapon" />     
+
+	<weapon file="wrench.weapon">
+    <commonness value="0.0" in_stock="1" />
+    <capacity source="rank" source_value="0.0" value="4" />
+  </weapon>
+  
+	<weapon file="wrench_small.weapon">
+    <commonness value="0.0" in_stock="1" />  
+    <capacity source="rank" source_value="0.0" value="4" />
+  </weapon>
+  
+  
+  <weapon file="wiesel_mg3.weapon">
+  </weapon>
+
+  <weapon file="wiesel_tow.weapon">
+  </weapon>  
+   
+  
+	<weapon file="laser_desig.weapon">  
+    <commonness value="0.00001" in_stock="1" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="5" />
+  </weapon>    
+
+  
+<!--  <weapon file="bandage.weapon" /> -->     
+      
+	<weapon file="chute_small.weapon" /> 
+	<weapon file="chute_medium.weapon" /> 
+	<weapon file="chute_large.weapon" />
+  <weapon file="aav7_gl.weapon" />
+	<weapon file="aav7_mg.weapon" />   
+
+
+  
+   <weapon file="radar_tank_cannon.weapon" />    
+
+   <weapon file="bizon.weapon" />
+   <weapon file="medikit_ai.weapon" />
+   <weapon file="medikit_ai_2.weapon" />
+
+   <weapon file="hornet.weapon" />
+   <weapon file="hornet_resource.weapon" >  
+    <commonness value="0.0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="2" />
+   </weapon>
+
+   <weapon file="vest_repair.weapon">  
+    <commonness value="0.0" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="4" />
+   </weapon>
+   <weapon file="vulcan_acav_mg.weapon" />
+   <weapon file="vulcan_acav_minig.weapon" />
+   <weapon file="chainsaw.weapon">  
+    <commonness value="0.0" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.3" value="1" />
+   </weapon> 
+   <weapon file="technical_mg.weapon" />
+   <weapon file="taser_medic.weapon" />
+   <weapon file="experimental_weapons.xml" />        
+
+<!-- CB#4 -->
+
+  <weapon file="portable_mortar.weapon">  
+    <commonness value="0.0" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.2" value="1" />
+  </weapon> 
+
+  <weapon file="m320.weapon">  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.25" value="1" />
+  </weapon> 
+  <weapon file="gp25.weapon">  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.25" value="1" />
+  </weapon> 
+
+  <weapon file="m79.weapon" >
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.25" value="1" />
+  </weapon>
+
+  <weapon file="m32.weapon"> 
+    <commonness value="0.0002" in_stock="0" />
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.7" value="1" />  
+  </weapon> 
+
+
+  <weapon file="wiesel_mk20.weapon" />                       	
+</weapons>

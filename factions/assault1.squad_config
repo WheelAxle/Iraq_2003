@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<squad_config name="Assault">
+	<soldier weapon1_tag="assault" 		weapon2_tag="medikit" />
+	<soldier weapon1_tag="machine gun"	weapon2_tag="bazooka" />
+	<soldier weapon1_tag="assault" 		weapon2_tag="bazooka" />
+	<soldier weapon1_tag="assault" />
+
+	<soldier 				weapon2_tag="medikit" />
+	<soldier weapon1_tag="machine gun" />
+	<soldier />
+	<soldier />
+
+	<soldier />
+	<soldier />
+</squad_config>

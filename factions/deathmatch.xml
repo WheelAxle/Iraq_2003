@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction name="All" color="0.5 0.35 0.1" firstnames_file="english_firstnames.txt" lastnames_file="german_lastnames.txt" >
+
+	<rank xp="0.0" name="Private">
+		<hud_icon filename="hud_rank0.png" />
+	</rank>  
+	<rank xp="0.05" name="Private 1st Class">
+		<hud_icon filename="hud_rank1.png" />    
+	</rank>
+	<rank xp="0.1" name="Corporal">
+		<hud_icon filename="hud_rank2.png" />
+	</rank>
+	<rank xp="0.2" name="Sergeant">
+		<hud_icon filename="hud_rank3.png" />
+	</rank>
+	<rank xp="0.3" name="Staff Sergeant">
+		<hud_icon filename="hud_rank4.png" />
+	</rank>
+	<rank xp="0.4" name="Staff Sergeant 1st Class">
+		<hud_icon filename="hud_rank5.png" />
+	</rank>
+	<rank xp="0.6" name="2nd Lieutenant">
+		<hud_icon filename="hud_rank6.png" />
+	</rank>
+	<rank xp="0.8" name="Lieutenant">
+		<hud_icon filename="hud_rank7.png" />
+	</rank>
+	<rank xp="1.0" name="Captain">
+		<hud_icon filename="hud_rank8.png" />
+	</rank>
+	<rank xp="1.2" name="Major">
+		<hud_icon filename="hud_rank9.png" />
+	</rank>
+	<rank xp="1.4" name="Lieutenant Colonel">
+		<hud_icon filename="hud_rank10.png" />
+	</rank>
+	<rank xp="2.0" name="Colonel">
+		<hud_icon filename="hud_rank11.png" />
+	</rank>
+	<rank xp="2.5" name="Brigadier General">
+		<hud_icon filename="hud_rank12.png" />
+	</rank>
+	<rank xp="3.0" name="Major General">
+		<hud_icon filename="hud_rank13.png" />
+	</rank>
+	<rank xp="4.0" name="Lieutenant General">
+		<hud_icon filename="hud_rank14.png" />
+	</rank>
+	<rank xp="6.0" name="General">
+		<hud_icon filename="hud_rank15.png" />
+	</rank>
+	<rank xp="10.0" name="General of the Army">
+		<hud_icon filename="hud_rank16.png" />
+	</rank>    
+
+	<!-- -------------- -->
+	<!--    default     -->
+	<!-- -------------- -->
+	<soldier name="default" spawn_score="1.0">
+		<character filename="default_male.character" />
+		<ai filename="default.ai" />
+
+   <models file="deathmatch_basic.models" />  
+
+
+	<item_class_existence_config>
+		<!-- secondaries -->
+		<item_class_existence class="weapon" slot="1" probability="0.4" />	
+		<!-- wearables -->
+		<item_class_existence class="carry_item" slot="1" probability="1.0" />	
+		<!-- backpack -->
+		<item_class_existence class="carry_item" slot="0" probability="0.04" />	
+	</item_class_existence_config>
+
+	<attribute_config class="rp">
+		<attribute weight="0.3" min="80.0" max="300.0" />
+		<attribute weight="0.7" min="0.0" max="0.0" />
+	</attribute_config>
+</soldier>
+
+</faction>

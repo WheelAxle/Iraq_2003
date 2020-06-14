@@ -1,0 +1,23 @@
+<vehicle name="" key="bullseye2.vehicle" map_view_atlas_index="15" respawn_time="180.0">
+	<tire_set offset="0.5 0 0.5" radius="0.2" />
+	<tire_set offset="0.5 0.0 -0.5" radius="0.2" />
+
+  <modifier class="blast_range" value="-1.0" />
+  
+	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
+                                                                                                                                                       
+	<physics max_health="3.3" mass="100000" extent="0.8 0.0 0.8" offset="0 0.0 0" top_offset="0 0.4 0" collision_model_pos="0 0.2 0" collision_model_extent="0.4 2 0.4" visual_offset="0 0.0 0.0" /> 
+
+	<turret offset="0 1.75 0.0" weapon_key="bullseye.weapon" weapon_offset="0.0 -0.0 0.0" weapon_recoil="0.02" physics_recoil="0.0"  max_rotation_step="0.00015" rotation="0" rotation_range="1.92" />
+
+	<visual class="chassis" mesh_filename="bullseye.mesh" texture_filename="shooting_range.png" />
+  
+	<event>
+		<trigger class="destroy" />
+		<result class="reward" xp="0.0500" />
+	</event>
+
+	<effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
+	<effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
+  <effect event_key="slide_hard" type="splat_map" surface_tag="road" size="2.0" atlas_index="5" layer="0" />   
+</vehicle>

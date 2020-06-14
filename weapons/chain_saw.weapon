@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="chain_saw.weapon">
+    <tag name="stealth" />
+    <specification 
+	retrigger_time="0.05" 
+	accuracy_factor="0.5" 
+	sustained_fire_grow_step="0.8" 
+	sustained_fire_diminish_rate="0.8" 
+	magazine_size="150" 
+	can_shoot_crouching="1"
+	can_shoot_prone="0"
+	suppressed="1" 
+	name="KAC- Chain SAW" 
+	class="0"
+	reload_one_at_a_time="0" 
+	projectile_speed="100.0"
+	barrel_offset="0.9"
+	barrel_offset_3d="0 -0.2 0.9"
+	/>
+
+    <animation state_key="recoil"	animation_key="recoil, hip fire" />
+	<animation state_key="hold" animation_key="hold, hip fire" />
+	<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+  <animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
+    <animation state_key="reload" animation_key="reloading, microgun" volume="0.7" />
+	<animation state_key="hold_on_wall" animation_key="hold, hip fire" />
+    <animation state_key="still_against_wall" 	animation_key="hold, hip fire" />
+	<animation state_key="walking" animation_key="walking, hip fire" />
+	<animation state_key="running" animation_key="walking, hip fire" />
+
+    <sound key="fire" fileref="chain_saw_shot.wav" pitch_variety="0.0" volume="0.65" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="reloadak_3.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="chain_saw.xml" />
+    <hud_icon filename="hud_chain_saw.png" />
+    <commonness value="0.00005" can_respawn_with="0" in_stock="0" />
+    <inventory encumbrance="12.0" price="550.0" />
+
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.5" />
+	
+    <projectiles_per_shot value="1" />
+    <weak_hand_hold offset="0.3" />
+
+    <projectile file="bullet.projectile">
+        <result 
+		class="hit" 
+		kill_probability="0.46" 
+		kill_decay_start_time="0.3" 
+		kill_decay_end_time="0.72" />
+    </projectile>
+    
+    <stance state_key="running" accuracy="0.1" />
+    <stance state_key="walking" accuracy="0.5" />
+    <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="over_wall" accuracy="0.9" />
+    
+    <modifier class="speed" value="-0.42" />    
+
+</weapon>

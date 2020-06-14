@@ -1,0 +1,40 @@
+<vehicle file="vehicle_base.vehicle" name="Leopold II Tank" key="tank_1_para.vehicle" respawn_time="0" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0" time_to_live="3.5" >
+	<tag name="metal_heavy" />
+	<tag name="tank_para" />
+  
+	<tire_set offset="1.8 0.0 +3" radius="0.5" />
+	<tire_set offset="1.8 0.0 -3" radius="0.5" />
+
+	<control max_speed="14.0" acceleration="15.0" max_reverse_speed="10.0" min_health_to_steer="0.62" max_rotation="0.0" max_water_depth="1.4" steer_smoothening="0.98" tracked="1" gears="1" max_limiter_speed="6.0" can_steer_on_ground="0" />
+
+	<physics max_health="0.0" blast_damage_threshold="0.17" TODO_blast_damage_threshold="1.02" mass="200.0" extent="5 0.0 7" offset="0 0.0 0" top_offset="0 4.0 0" collision_model_pos="0 1.2 0" collision_model_extent="4.0 3.5 8.0" visual_offset="0 0.6 0.0" gravity="-10" /> 
+
+	<turret offset="0 2.65 0.0" weapon_key="tank_cannon_1.weapon" weapon_offset="0.0 0.4 3.8" weapon_recoil="0.2" max_rotation_step="0.00005" />
+	<turret offset="0 3.65 0.0" weapon_key="tank_mg_1.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00028" />
+	<turret offset="0 3.65 0.0" weapon_key="chute_large.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0" max_rotation_step="0.0" rotation_range="0.0" />
+
+	<visual class="chassis" mesh_filename="tank_body_1.mesh" texture_filename="tank_1.png" offset="0.0 -0.8 0.0" max_tilt="0.06" />
+	<visual class="turret" turret_index="0" mesh_filename="tank_turret_1.mesh" texture_filename="tank_1.png" />
+	<visual class="turret" turret_index="1" mesh_filename="tank_mg.mesh" texture_filename="tank_1.png" />
+
+	<visual class="track" mesh_filename="tank_track_1.mesh" offset="-1.62 0.5 0.0" >
+		<part texture_filename="tank_wheel_1.png" texture_animation="rotate" tire_binding="0" />
+		<part texture_filename="tank_track.png" />
+		<part texture_filename="tank_track.png" texture_animation="translate" tire_binding="0" />
+	</visual>
+
+	<visual class="track" mesh_filename="tank_track_1.mesh" offset="+1.62 0.5 0.0" >
+		<part texture_filename="tank_wheel_1.png" texture_animation="rotate" tire_binding="1" />
+		<part texture_filename="tank_track.png" />
+		<part texture_filename="tank_track.png" texture_animation="translate" tire_binding="1" />
+	</visual>
+
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+
+	<event>
+		<trigger class="destroy" />  	
+    		<result class="spawn" instance_class="vehicle" instance_key="tank_1.vehicle" min_amount="1" max_amount="1" offset="0 0.0 0" position_spread="0 0" direction_spread="0 -1" />
+	</event>  
+
+</vehicle>

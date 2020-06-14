@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Technical" key="technical.call"
+      initiation_comment1="I need a truck"
+      acknowledge_comment="Got it brother, truck's on the way."
+      launch_comment="Technical's coming."
+      	  notify_metagame="1">
+
+    <round instances="1"
+           instance_class="vehicle"
+           instance_key="technical.vehicle" 
+           instance_spread="2 0 2" 
+           common_spread="0 0 0" 
+           launch_time="10.0"
+           spawn_time="17.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="2.0"
+           initial_speed_to_target="0.0">
+    </round>
+
+    <hud_icon filename="hud_buggydrop.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.3" />
+    <inventory encumbrance="0.0" price="200.0" />
+
+</call>

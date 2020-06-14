@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='asval.weapon' />
+	<weapon key='bizon.weapon' />
+	<weapon key='aks74u.weapon' />
+	<weapon key='pecheneg_bullpup.weapon' />
+	<weapon key='rpk.weapon' />
+
+	<weapon key='rpg-18.weapon' />
+	<weapon key='rpg-7.weapon' />
+
+	<call key="gunrun2.call" />
+	<call key="artillery1.call" />
+</resources>

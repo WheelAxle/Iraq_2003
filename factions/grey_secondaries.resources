@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='rpg-7.weapon' />
+  <weapon key='m1911.weapon' />
+  <weapon key='desert_eagle.weapon' />
+
+
+	<projectile key='f1_grenade.projectile' />    
+</resources>

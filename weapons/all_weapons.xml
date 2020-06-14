@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+
+	<weapon file="ak47.weapon" />
+	<weapon file="m16a2.weapon" />
+	<weapon file="m16a1.weapon" />
+	<weapon file="m4.weapon" />
+	<weapon file="akm.weapon" />
+	<weapon file="m16a3.weapon" />
+	<weapon file="xm8.weapon" />
+	<weapon file="scar.weapon" />            
+	<weapon file="g3.weapon" />
+	<weapon file="stg.weapon" />
+	
+	<weapon file="mg42.weapon" /> 
+	<weapon file="m240.weapon" />
+	<weapon file="pkm.weapon" />
+	<weapon file="pecheneg_bullpup.weapon" />
+	<weapon file="stoner_lmg.weapon" /> 
+	<weapon file="m60e4.weapon" />
+	<weapon file="m249.weapon" />
+	<weapon file="stoner62.weapon" />   
+	<weapon file="rpk.weapon" />
+	<weapon file="rpd.weapon" />
+
+	<weapon file="m40a3.weapon" />
+	<weapon file="m40a3_supp.weapon" />
+	<weapon file="dragunov_svd.weapon" />
+	<weapon file="dragunov_svd_supp.weapon" />
+	<weapon file="vss_vintorez.weapon" />
+	<weapon file="mosin.weapon" />
+	<weapon file="mosin_supp.weapon" />
+	<weapon file="barrett_m107.weapon" />
+	<weapon file="scarssr.weapon" />
+
+	<weapon file="m14.weapon" />
+	<weapon file="m1a1.weapon" />
+	<weapon file="tabuk.weapon" />
+	<weapon file="sks.weapon" />
+	<weapon file="m21_supp.weapon" />
+	<weapon file="sks_supp.weapon" />	
+
+	<weapon file="benelli_m4.weapon" />
+	<weapon file="benelli_m4_supp.weapon" /> 
+	<weapon file="mossberg.weapon" />
+	<weapon file="ns2000.weapon" />
+	<weapon file="ns2000op.weapon" />
+	<weapon file="saiga.weapon" />
+	<weapon file="aa-12.weapon" />
+	<weapon file="jackhammer.weapon" />
+ 	<weapon file="uts15.weapon" /> 
+	
+	<weapon file="tank_cannon.weapon" />
+	<weapon file="tank_mg.weapon" />
+	<weapon file="apc_hmg.weapon" />
+
+	<weapon file="aks74u.weapon" />
+	<weapon file="mp5.weapon" />
+	<weapon file="p90.weapon" />
+	<weapon file="asval.weapon" />
+	<weapon file="bizon.weapon" />
+	<weapon file="mp5sd.weapon" />
+	<weapon file="m3a1.weapon" />
+	<weapon file="ppsh.weapon" />            
+	<weapon file="mp40.weapon" />	
+
+	<weapon file="medikit.weapon" />
+	<weapon file="bandage2.weapon" />
+	<weapon file="fak.weapon" />
+
+	<weapon file="riot_shield.weapon"/>
+	<weapon file="tow.weapon" />
+
+	<weapon file="cover_resource.weapon" />
+  
+	<weapon file="humvee_mg.weapon" />
+
+	<weapon file="rpg-7.weapon" />
+	<weapon file="m2_carlgustav.weapon" /> 
+	<weapon file="m72_law.weapon" />
+	<weapon file="javelin.weapon" />
+	<weapon file="rpg-18.weapon" />
+	<weapon file="rpg-29.weapon" />
+	<weapon file="stinger.weapon" />
+  	<weapon file="smaw.weapon" />
+ 	<weapon file="m202_flash.weapon" /> 
+
+	<weapon file="m79.weapon" />
+	<weapon file="m320.weapon" />
+  	<weapon file="m32.weapon" />  
+	<weapon file="gp25.weapon" />  
+
+	<weapon file="mg_resource.weapon"/>  
+	<weapon file="deployable_mg.weapon" />
+
+ 	<weapon file="patrol_ship_mg.weapon" />
+	<weapon file="patrol_ship_cannon.weapon" />   
+	<weapon file="patrol_ship_mortar.weapon" />   
+	<weapon file="minig_resource.weapon"/> 
+	<weapon file="mortar_resource.weapon"/>    
+	<weapon file="deployable_minig.weapon" />
+	<weapon file="mortar.weapon" /> 
+
+    	<weapon file="pb.weapon" />
+    	<weapon file="beretta_m9.weapon" />
+    	<weapon file="m1911.weapon" />                   
+    	<weapon file="scorpion.weapon" />
+    	<weapon file="scorpion-evo.weapon" />
+    	<weapon file="beretta_93r.weapon" />
+    	<weapon file="desert_eagle.weapon" />
+
+	<!-- <weapon file="bayonet_m.weapon" /> -->
+	<!-- <weapon file="bayonet_n.weapon" /> -->
+	<!-- <weapon file="bayonet_k.weapon" /> -->
+	<!-- <weapon file="golden_knife.weapon" /> -->
+	
+<!-- <weapon file="tank_trap_resource.weapon"/> -->
+
+<!-- 
+	<weapon file="tank2_cannon.weapon" />
+	<weapon file="tank2_mg.weapon" />  
+	<weapon file="tank2_missile_launcher.weapon" />        
+-->
+
+	<weapon file="apc_hmg_1.weapon" />
+	<weapon file="apc_hmg_2.weapon" /> 
+	<weapon file="tank_cannon_1.weapon" />
+	<weapon file="tank_cannon_2.weapon" />     
+	<weapon file="technical_mg.weapon" /> 
+  	<weapon file="radar_tank_cannon.weapon" /> 
+  	<weapon file="vulcan_tank_mg.weapon" /> 
+  	<weapon file="mortar_vulcan.weapon" />
+  	<weapon file="m113_tank_cannon.weapon" />
+   
+	<weapon file="tank_mg_1.weapon" />
+	<weapon file="tank_mg_2.weapon" />  
+
+	<weapon file="microgun.weapon"/>
+ 	<weapon file="binoculars.weapon" />
+ 	<weapon file="laser_desig.weapon" />
+
+  	<weapon file="buggy_mg.weapon" />   
+  	<weapon file="m712.weapon" /> 
+  	<weapon file="model_29.weapon" />  
+  
+	<weapon file="sawnoff.weapon" />
+    
+  
+	<weapon file="claymore_resource.weapon" />   
+	<weapon file="chain_saw.weapon" />      
+	<weapon file="wrench.weapon" />   
+
+  
+  	<weapon file="gl_resource.weapon"/>  
+	<weapon file="deployable_gl.weapon" />
+	<weapon file="humvee_gl.weapon" />  
+  
+	<weapon file="wrench_small.weapon" />  
+	<weapon file="ares_shrike.weapon" /> 
+       
+  
+	
+	<weapon file="wiesel_mg3.weapon" />
+	<weapon file="wiesel_tow.weapon" />   
+  
+<!--  <weapon file="bandage.weapon" /> -->      
+
+	<weapon file="chute_small.weapon" /> 
+	<weapon file="chute_medium.weapon" /> 
+	<weapon file="chute_large.weapon" /> 
+	<weapon file="fal_bayonet.weapon" />
+	
+	<weapon file="aav7_gl.weapon" />
+	<weapon file="aav7_mg.weapon" />
+
+	<weapon file="medikit_ai.weapon" />
+	<weapon file="medikit_ai_2.weapon" />
+	<weapon file="enforcer.weapon" />
+	<weapon file="gps_laptop.weapon" />
+	<weapon file="hornet.weapon" />
+	<weapon file="repair_crane_0.weapon" />
+	<weapon file="repair_crane_1.weapon" />
+	<weapon file="repair_crane_2.weapon" />
+	<weapon file="repair_crane_resource.weapon" />
+	<weapon file="squall.weapon" />
+	<weapon file="vest_repair.weapon" />
+	<weapon file="vulcan_acav_mg.weapon" />
+	<weapon file="vulcan_acav_minig.weapon" />
+	<weapon file="chainsaw.weapon" />    
+
+<!-- CB#4 -->
+    
+	
+    	<weapon file="portable_mortar.weapon" />
+
+</weapons>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+
+	<projectile file="stun_grenade.projectile" />
+	<projectile file="f1_grenade.projectile" />
+	<projectile file="rgd_grenade.projectile" />
+	<projectile file="m67_grenade.projectile" />
+	<projectile file="rgo_grenade.projectile" />
+	<projectile file="beano_grenade.projectile" />
+
+	<!-- rather awkward place for this definition, but for now, that's the way it is -->
+	<!-- projectile itself defines its slot, 0 being actual throwables that can also equipped, thrown, bought and found -->
+	<!-- mortar shell is in slot 2 -->
+	<projectile file="mortar_shell.projectile" />
+
+	<projectile file="c4.projectile" />
+	<projectile file="ied.projectile" />
+
+	<projectile file="artillery_shell.projectile" />
+
+	<!-- <projectile file="bomb.projectile" /> -->
+
+
+	<projectile file="at_mine.projectile" />
+	<projectile file="rock_false.projectile" />
+
+
+	<projectile file="flare.projectile" />
+	<projectile file="claymore_blast.projectile" />   
+	<projectile file="claymore.projectile" />   
+ 
+
+        <projectile file="naval_mine.projectile" />  
+ 	<projectile file="flare_checkpoint.projectile" />
+  <projectile file="debri_stun.projectile" />
+  <projectile file="debri_stun_medium.projectile" />  
+  <projectile file="debri_stun_big.projectile" />
+  <projectile file="debri_destroy_big.projectile" />  
+  <projectile file="debri_destroy_small.projectile" />  
+  	
+	<projectile file="tracer_missile.projectile" />
+	<projectile file="missile.projectile" />
+	<projectile file="missile2.projectile" />
+	<projectile file="missile3.projectile" />
+	<projectile file="laser_missile.projectile" />  
+	<projectile file="laser.projectile" />  
+
+	
+
+	
+	
+	<projectile file="banana_peel.projectile" />
+
+	
+	   
+    <projectile file="30mm.projectile" />
+    <projectile file="30mm_blast.projectile" />
+    <projectile file="a10_warthog_shadow.projectile" />
+	
+	<projectile file="hornet.projectile" />
+
+	<projectile file="icecream.projectile" />
+
+</projectiles>

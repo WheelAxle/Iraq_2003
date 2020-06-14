@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='stoner_lmg.weapon' />
+	<weapon key='m3a1.weapon' />
+	<weapon key='xm8.weapon' />
+	<weapon key='ares_shrike.weapon' />
+	<weapon key='scar.weapon' />
+	<weapon key='stoner62.weapon' />
+	<weapon key='chainsaw.weapon' />
+	
+	<weapon key='javelin.weapon' />
+	<weapon key='smaw.weapon' />
+
+	<call key="gunrun.call" />
+	<call key="artillery1.call" />
+</resources>

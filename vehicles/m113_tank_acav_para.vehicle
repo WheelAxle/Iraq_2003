@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="vehicle_base.vehicle" name="FST ACAV" key="m113_tank_acav_para.vehicle" respawn_time="0" map_view_atlas_index="34" minimum_fill_requirement="0.35" max_character_collision_speed_on_normal="8.0" character_leave_request_mode="friendly" time_to_live="3.5" >
+	<tag name="metal_heavy" />
+  
+	<tire_set offset="1.44 0.0 +2.4" radius="0.44" />
+	<tire_set offset="1.44 0.0 -2.4" radius="0.44" />
+
+	<control max_speed="10.0" acceleration="15.0" max_reverse_speed="8.0" min_health_to_steer="0.42" max_rotation="0.0" max_water_depth="1.4" can_steer_in_water="0" can_steer_on_ground="0" steer_smoothening="0.98" tracked="1" gears="1" max_limiter_speed="6.0" />
+
+	<physics max_health="0.0" blast_damage_threshold="0.17" TODO_blast_damage_threshold="1.02" mass="100.0" extent="4.0 0.0 5.6" offset="0 0.0 0" top_offset="0 2.4 0" collision_model_pos="0 0.96 0" collision_model_extent="3.2 2.8 6.4" visual_offset="0 0.5 0.0" gravity="-10" /> 
+
+	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
+	<!-- similarly, a controllable turret can only exist if it has a weapon -->
+	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
+	<turret offset="0 2.77 -0.41" weapon_key="vulcan_acav_minig.weapon" weapon_offset="0.0 0.25 0.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00007" />
+	<turret offset="0.95 2.20 -1.90" weapon_key="vulcan_acav_mg.weapon" weapon_offset="0.0 0.30 0.0" weapon_recoil="0.0" max_rotation_step="0.0002" rotation="1.05" rotation_range="1.2"/>
+	<turret offset="-0.95 2.20 -1.90" weapon_key="vulcan_acav_mg.weapon" weapon_offset="0.0 0.30 0.0" weapon_recoil="0.0" max_rotation_step="0.0002" rotation="-1.05" rotation_range="1.2"/>
+	<turret offset="0 2.65 -0.41" weapon_key="chute_large.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0" max_rotation_step="0.0" rotation_range="0.0" />
+
+	<visual class="chassis" mesh_filename="vulcan_acav_body.mesh" texture_filename="vulcan.png" max_tilt="0.06" />
+	<visual class="turret" turret_index="0" mesh_filename="vulcan_acav_minig.mesh" texture_filename="vulcan_acav_minig.png" />
+	<visual class="turret" turret_index="1" mesh_filename="vulcan_acav_mg.mesh" texture_filename="vulcan_acav_mg.png" />
+	<visual class="turret" turret_index="2" mesh_filename="vulcan_acav_mg.mesh" texture_filename="vulcan_acav_mg.png" />
+
+	<visual class="track" mesh_filename="vulcan_track.mesh" offset="-1.28 0.4 0" >
+		<part texture_filename="vulcan.png" />
+		<part texture_filename="vulcan_track.png" texture_animation="translate" tire_binding="0" />
+		<part texture_filename="vulcan_wheel.png" texture_animation="rotate" tire_binding="0" />
+	</visual>
+
+	<visual class="track" mesh_filename="vulcan_track.mesh" offset="+1.28 0.4 0" >
+		<part texture_filename="vulcan.png" />
+		<part texture_filename="vulcan_track.png" texture_animation="translate" tire_binding="1" />
+		<part texture_filename="vulcan_wheel.png" texture_animation="rotate" tire_binding="1" />
+	</visual>
+
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="hit" filename="car_hit3.wav" />
+
+	<event>
+		<trigger class="destroy" />		
+    		<result class="spawn" instance_class="vehicle" instance_key="m113_tank_acav.vehicle" min_amount="1" max_amount="1" offset="0 0.0 0" position_spread="0 0" direction_spread="0 -1" />
+	</event>  
+  
+</vehicle>

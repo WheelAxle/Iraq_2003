@@ -1,0 +1,31 @@
+<vehicle name="" key="campfire.vehicle" map_view_atlas_index="0">
+	<tag name="campfire" />
+
+	<tire_set offset="0.85 0.0 1.54" radius="0.4" />
+	<tire_set offset="0.85 0.0 -1.54" radius="0.4" />
+
+	<control max_speed="23.0" acceleration="7.0" max_reverse_speed="7.0" max_rotation="0.7" max_water_depth="1.0" steer_smoothening="0.8" />
+
+	<physics max_health="1000.0" mass="20000.0" extent="1.8 0.0 3.8" offset="0 0.0 0" top_offset="0 4 0" collision_model_pos="0 0.0 0" collision_model_extent="1.0 1.0 1.0" visual_offset="0 0.0 0" /> 
+
+	<visual class="chassis" mesh_filename="painting.mesh" texture_filename="jeep_body.png" />
+
+	<character_slot type="passenger" position="0.0 0.0 2.0" rotation="3.14" exit_rotation="1.57" hiding="0" animation_key="sit 1" allow_weapon="0" />
+	<character_slot type="passenger" position="-2.0 0.0 0.0" rotation="1.57" exit_rotation="-1.57" hiding="0" animation_key="sit 2" allow_weapon="0" />
+
+	<character_slot type="passenger" position="0.0 0.0 -2.0" rotation="0" exit_rotation="1.57" hiding="0" animation_key="sit 1" allow_weapon="0" />
+	<character_slot type="passenger" position="2.0 0.0 0.0" rotation="-1.57" exit_rotation="-1.57" hiding="0" animation_key="sit 2" allow_weapon="0" />
+
+	<!-- sound handling -->
+	<!--
+	<rev_sound filename="jeep_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.2" volume="0.8" />
+	<rev_sound filename="jeep_rev1.wav" low_pitch="0.5" high_pitch="1.1" low_rev="0.1" high_rev="1.0" volume="1.0" />
+	-->
+	<rev_sound filename="jeep2_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.3" volume="0.8" />
+	<rev_sound filename="jeep2_rev2.wav" low_pitch="0.6" high_pitch="1.0" low_rev="0.1" high_rev="0.7" volume="0.65" />
+	<rev_sound filename="jeep2_rev3.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.5" high_rev="1.0" volume="0.8" />
+
+        <effect event_key="idle_chassis" ref="SmallSmokeVehicle" offset="0.0 0.0 0.0" />
+        <effect event_key="idle_chassis" ref="SmallFireRepeat" offset="0.0 0.0 0.0" />
+
+</vehicle>

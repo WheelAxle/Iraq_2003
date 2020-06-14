@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='benelli_m4.weapon' />
+	<weapon key='benelli_m4_supp.weapon' />
+	<weapon key='aa-12.weapon' />
+
+	<projectile key='m67_grenade.projectile' enabled="0" />
+	<projectile key='beano_grenade.projectile' enabled="0" />
+	<projectile key='stun_grenade.projectile' enabled="1" />    
+</resources>

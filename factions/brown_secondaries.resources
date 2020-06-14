@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='rpg-18.weapon' />
+  <weapon key='pb.weapon' />
+  <weapon key='scorpion.weapon' />     
+ 
+</resources>

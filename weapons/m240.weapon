@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="m240.weapon">
+    <tag name="machine gun" />
+    <specification 
+  retrigger_time="0.1" 
+  accuracy_factor="0.62" 
+  sustained_fire_grow_step="0.8" 
+  sustained_fire_diminish_rate="0.8" 
+  magazine_size="100" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="0" 
+  suppressed="0" 
+  name="M240B" 
+  class="0" 
+  projectile_speed="100.0" />
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation key="reload" ref="33" />
+    <animation key="hold" ref="32" />
+    <animation key="hold_on_wall" ref="1" />
+    <animation state_key="walking" animation_key="walking, heavy weapon" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+
+    <sound key="fire" fileref="m240b.wav" pitch_variety="0.06" volume="0.8" />
+    <sound key="magazine_out" fileref="reloadm240b_1.wav" />
+    <sound key="magazine_in" fileref="reloadm240b_2.wav" />
+    <sound key="cycle" fileref="reloadm240b_3.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="m240b.xml" />
+
+    <hud_icon filename="hud_m240.png" />
+    <commonness value="0.05" />
+    <inventory encumbrance="10.0" price="3.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="0.65" kill_decay_start_time="0.35" kill_decay_end_time="0.70" />
+    </projectile>
+    <modifier class="speed" value="-0.1" />
+</weapon>

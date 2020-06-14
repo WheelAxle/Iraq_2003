@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="Satellite spotting" key="gps.call"
+      initiation_comment1="Observation mission"
+      initiation_comment2="Scanning area for strategic targets."
+      acknowledge_comment="Scanning area, open your maps, soldiers!"
+      launch_comment=""
+      notify_metagame="1">
+
+    <round launch_time="5.0"
+           spawn_time="15.0">
+    </round>
+
+    <hud_icon filename="hud_laptop_gps.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.1" />
+    <inventory encumbrance="0.0" price="1.0" />
+
+</call>

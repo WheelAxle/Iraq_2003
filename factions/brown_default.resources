@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<projectile key='rgo_grenade.projectile' />
+	<projectile key='stun_grenade.projectile' />    
+	<projectile key='rgd_grenade.projectile' />
+	<projectile key='c4.projectile' />
+	<projectile key='flare.projectile' />
+
+	<weapon key='bayonet_k.weapon' />
+	<weapon key='riot_shield.weapon' />
+	<weapon key='medikit.weapon' />
+
+ 	<vehicle key="jeep_2.vehicle" />
+ 	<vehicle key="apc_2.vehicle" />
+ 	<vehicle key="tank_2.vehicle" />
+ 	<vehicle key="transport_truck_2.vehicle" />    
+
+ 	<vehicle key="tank_2_para.vehicle" />
+
+	<call key="tank_2.call" />
+
+	<call key="precision2.call" />
+	<call key="gunrun2.call" /> 
+	<call key="artillery1.call" />
+	<call key="artillery2.call" />
+	<call key="paratroopers1.call" />
+	<call key="paratroopers2.call" />
+	<call key="paratroopers_medic.call" />    
+	<call key="cover_drop.call" />
+	<call key="buggy.call" />
+	<call key="guntruck.call" />
+	<call key="tank.call" /> 
+
+</resources>

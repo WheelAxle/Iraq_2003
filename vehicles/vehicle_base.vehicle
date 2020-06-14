@@ -1,0 +1,4 @@
+<vehicle time_to_live_unsteerable="40" >
+	<tag name="vehicle" />
+	<control max_limiter_speed="7.0" />  
+</vehicle>

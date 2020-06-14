@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='uts15.weapon' />
+	<weapon key='saiga.weapon' />
+	<weapon key='microgun.weapon' />
+	
+	<projectile key='rgd_grenade.projectile' enabled="0" />
+	<projectile key='rgo_grenade.projectile' enabled="0" />
+	<projectile key='stun_grenade.projectile' enabled="1" />    
+</resources>

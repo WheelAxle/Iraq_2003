@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+                <model filename="soldier_elite_a1.xml"><requirement class="carry_item" slot="1" key="uniform_rambo.carry_item"/></model>
+                <model filename="survivor_1.xml"><requirement class="carry_item" slot="1" key="uniform_survivor_1.carry_item"/></model>
+                <model filename="survivor_2.xml"><requirement class="carry_item" slot="1" key="uniform_survivor_2.carry_item"/></model>
+                <model filename="survivor_3.xml"><requirement class="carry_item" slot="1" key="uniform_survivor_3.carry_item"/></model>
+                <model filename="deer.xml"><requirement class="carry_item" slot="1" key="uniform_deer.carry_item"/></model>
+                <model filename="santa.xml"><requirement class="carry_item" slot="1" key="uniform_santa.carry_item"/></model> 
+                <model filename="soldier_prison.xml"><requirement class="carry_item" slot="1" key="uniform_prisoner.carry_item"/></model>                 
+                <model filename="soldier_elite_a1.xml"><requirement class="carry_item" slot="1" key="uniform_rambo.carry_item"/></model>
+                <model filename="soldier_elite_b1.xml"><requirement class="carry_item" slot="1" key="uniform_elite_b1.carry_item"/></model> 
+                <model filename="soldier_elite_c1.xml"><requirement class="carry_item" slot="1" key="uniform_elite_c1.carry_item"/></model> 
+                <model filename="soldier_elite_c2.xml"><requirement class="carry_item" slot="1" key="uniform_elite_c2.carry_item"/></model> 
+                <model filename="soldier_elite_a2.xml"><requirement class="carry_item" slot="1" key="uniform_elite_a2.carry_item"/></model>
+                <model filename="soldier_elite_b2.xml"><requirement class="carry_item" slot="1" key="uniform_elite_b2.carry_item"/></model>                              
+                <model filename="president.xml"><requirement class="carry_item" slot="1" key="uniform_president.carry_item"/></model>                                               
+</models>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<squad_config name="Destroyer">
+	<soldier 				weapon2_tag="bazooka" />
+	<soldier weapon1_tag="machine gun"	weapon2_tag="bazooka" />
+	<soldier 				weapon2_tag="bazooka" />
+	<soldier 				weapon2_tag="medikit" />
+
+	<soldier 				weapon2_tag="medikit" />
+	<soldier weapon1_tag="machine gun" 	weapon2_tag="bazooka" />
+	<soldier 				weapon2_tag="bazooka" />
+	<soldier 				weapon2_tag="bazooka" />
+
+	<soldier />
+	<soldier />
+</squad_config>

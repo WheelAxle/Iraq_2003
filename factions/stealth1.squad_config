@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<squad_config name="Stealth">
+	<soldier weapon1_tag="stealth" weapon2_tag="medikit" />
+	<soldier weapon1_tag="stealth" weapon2_tag="bazooka" />
+	<soldier weapon1_tag="stealth" weapon2_tag="bazooka" />
+	<soldier weapon1_tag="stealth" weapon2_tag="bazooka" />
+
+	<soldier weapon1_tag="stealth" weapon2_tag="medikit" />
+	<soldier weapon1_tag="stealth" weapon2_tag="bazooka" />
+	<soldier weapon1_tag="stealth" weapon2_tag="bazooka" />
+	<soldier weapon1_tag="stealth" weapon2_tag="bazooka" />
+
+	<soldier weapon1_tag="stealth" />
+	<soldier weapon1_tag="stealth" />
+</squad_config>

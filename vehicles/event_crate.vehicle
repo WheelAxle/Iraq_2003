@@ -1,0 +1,30 @@
+<vehicle key="event_crate.vehicle" name="teddy crate" map_view_atlas_index="20" protectors="10" respawn_time="60.0">
+	<tag name="metal_heavy" />
+	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
+	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />
+
+	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
+
+	<physics max_health="7.5" mass="10.0"  offset="0 0.0 0" top_offset="0 1 0" collision_model_pos="0 0.8 0" collision_model_extent="1.5 1.5 1.5" visual_offset="0 0.3 0" /> 
+
+	<visual class="chassis" mesh_filename="crate_metal.mesh" texture_filename="crate_metal.png" />
+
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0010" />
+	</event>
+
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="10.0" />
+	</event>
+
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="teddy.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" /> 
+	</event>
+
+	<effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
+	<effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
+</vehicle>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="designated missile" key="laser_strike.call"
+      initiation_comment1="Fire mission"
+      initiation_comment2="On my laser"
+      acknowledge_comment="Laser marked, rounds on the way."
+      launch_comment="Splash, out.">
+
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="laser_missile.projectile" 
+           instance_spread="7 8 7" 
+           common_spread="10 0 10"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="4.0"
+           spawn_time="5.01">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.25" />
+    </round>
+
+<round instances="2"
+           instance_class="grenade"
+           instance_key="laser_missile.projectile" 
+           instance_spread="6 6 6" 
+           common_spread="0 0 0"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="5.0"
+           spawn_time="7.01">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.25" />
+    </round>
+
+<round instances="2"
+           instance_class="grenade"
+           instance_key="laser_missile.projectile" 
+           instance_spread="6 6 6" 
+           common_spread="0 0 0"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="6.0"
+           spawn_time="9.01">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.25" />
+    </round>
+
+<round instances="2"
+           instance_class="grenade"
+           instance_key="laser_missile.projectile" 
+           instance_spread="6 6 6" 
+           common_spread="0 0 0"
+           initial_speed_to_target="50"
+           vertical_offset_at_spawn="40" 
+           launch_time="7.0"
+           spawn_time="11.01">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.25" />
+    </round>
+
+    <hud_icon filename="hud_dollars_100.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.1" />
+    <inventory encumbrance="0.0" price="0.0" />
+
+</call>

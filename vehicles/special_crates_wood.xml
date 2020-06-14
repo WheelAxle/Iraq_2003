@@ -1,0 +1,104 @@
+<vehicles>
+	<!-- if you add something here, remember to add it in common.resources too! -->
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood1.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="vest3.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" /> 
+	</event>
+</vehicle>
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood2.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="horny_magazine.carry_item" min_amount="2" max_amount="3" offset="0 1.0 0" position_spread="0 0" direction_spread="0.06 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />	  
+   	<result class="spawn" instance_class="carry_item" instance_key="bizarre_rubber_bullet.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" />      
+	</event> 
+	<event>
+		<trigger class="destroy" />	  
+   	<result class="spawn" instance_class="carry_item" instance_key="kamasutra.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" />      
+	</event>  
+</vehicle>
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood3.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="beer_can.carry_item" min_amount="3" max_amount="4" offset="0 1.0 0" position_spread="0 0" direction_spread="0.06 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />	  
+   	<result class="spawn" instance_class="carry_item" instance_key="whiskey_bottle.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" />      
+	</event>
+</vehicle>
+
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood4.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="cigarettes.carry_item" min_amount="3" max_amount="4" offset="0 1.0 0" position_spread="0 0" direction_spread="0.06 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />	  
+   	<result class="spawn" instance_class="carry_item" instance_key="lighter.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" />      
+	</event>
+</vehicle>
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood5.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="chocolate.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.06 0.3" />
+	</event>
+	<event>
+		<trigger class="destroy" />	  
+   	<result class="spawn" instance_class="carry_item" instance_key="gamingdevice.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" />      
+	</event>
+	<event>
+		<trigger class="destroy" />	  
+   	<result class="spawn" instance_class="carry_item" instance_key="chewing_gum.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" />      
+	</event>
+	<event>
+		<trigger class="destroy" />	  
+   	<result class="spawn" instance_class="carry_item" instance_key="teddy.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" />      
+	</event>    
+</vehicle>
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood6.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="weapon" instance_key="javelin.weapon" min_amount="3" max_amount="4" offset="0 1.0 0" position_spread="0 0" direction_spread="0.06 0.3" />
+	</event>
+</vehicle>
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood7.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="weapon" instance_key="m202_flash.weapon" min_amount="1" max_amount="3" offset="0 1.0 0" position_spread="0 0" direction_spread="0.06 0.3" />
+	</event>
+</vehicle>
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood8.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="costume_clown.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" /> 
+	</event>
+</vehicle>
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood9.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="costume_werewolf.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" /> 
+	</event>
+</vehicle>
+
+<vehicle filename="special_crate_wood_base.vehicle" key="special_crate_wood10.vehicle">
+	<event>
+		<trigger class="destroy" />		
+		<result class="spawn" instance_class="carry_item" instance_key="costume_santa.carry_item" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0.04 0.2" /> 
+	</event>
+</vehicle>
+
+
+</vehicles>

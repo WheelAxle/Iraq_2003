@@ -1,0 +1,41 @@
+<vehicle file="vehicle_base.vehicle" name="Gun truck" key="guntruck_para.vehicle" map_view_atlas_index="35" minimum_fill_requirement="0.3">
+	<tag name="metal_thin" />
+	<tag name="guntruck_para" />
+  
+	<tire_set offset="1.12 0.0 2.835" radius="0.64" />
+	<tire_set offset="1.12 0.0 -1.302" radius="0.64" />
+	<tire_set offset="1.12 0.0 -2.894" radius="0.64" />
+
+	<control max_speed="20.0" acceleration="6.0" max_reverse_speed="5.0" TODO_min_health_to_steer="0.24" max_rotation="0.9" max_water_depth="1.5" steer_smoothening="0.7" can_steer_on_ground="0" />
+
+	<turret offset="-0.6 3.35 1.2" weapon_key="technical_mg.weapon" weapon_offset="0 0 0.8" weapon_recoil="0.1" max_rotation_step="0.0002" rotation="0" rotation_range="1.2" />
+	<turret offset="0.6 3.35 1.2" weapon_key="technical_mg.weapon" weapon_offset="0 0 0.8" weapon_recoil="0.1" max_rotation_step="0.0002" rotation="0"  rotation_range="1.2" />
+	<turret offset="-1.5 3.3 -1.8" weapon_key="technical_mg.weapon" weapon_offset="0 0 0.8" weapon_recoil="0.1" max_rotation_step="0.0002" rotation="-1.57" rotation_range="2.12" />
+	<turret offset="1.5 3.3 -1.8" weapon_key="technical_mg.weapon" weapon_offset="0 0 0.8" weapon_recoil="0.1" max_rotation_step="0.0002" rotation="1.57" rotation_range="2.12" />
+	<turret offset="0 3.0 -1.8" weapon_key="chute_medium.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0" max_rotation_step="0.0" rotation_range="0.0" />
+	<turret offset="0 2.0 1.7" weapon_key="chute_medium.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0" max_rotation_step="0.0" rotation_range="0.0" />
+	
+	<physics max_health="0" mass="160.0" extent="3.2 0.0 6.4" offset="0 0.0 0" top_offset="0 11.2 0" collision_model_pos="0 1.44 0.32" collision_model_extent="2.72 3.36 8.4" visual_offset="0 0.24 -0.24" friction_offset="0.0" drag_offset="-0.05" gravity="-10" /> 
+
+	<visual class="chassis" mesh_filename="guntruck.mesh" texture_filename="guntruck_body.png" />
+	<visual class="tire" mesh_filename="transport_truck_wheel.mesh" texture_filename="transport_truck_wheel.png" />
+	<visual class="turret" turret_index="0" mesh_filename="technical_mg.mesh" texture_filename="technical_mg.png" />
+	<visual class="turret" turret_index="1" mesh_filename="technical_mg.mesh" texture_filename="technical_mg.png" />
+	<visual class="turret" turret_index="2" mesh_filename="technical_mg.mesh" texture_filename="technical_mg.png" />
+	<visual class="turret" turret_index="3" mesh_filename="technical_mg.mesh" texture_filename="technical_mg.png" />
+	
+	<!-- sound handling -->
+	<rev_sound filename="truck_rev0.wav" low_pitch="0.95" high_pitch="1.05" low_rev="0.0" high_rev="0.2" volume="1.0" />
+	<rev_sound filename="truck_rev1.wav" low_pitch="0.8" high_pitch="1.1" low_rev="0.05" high_rev="0.7" volume="0.75" />
+	<rev_sound filename="truck_rev3.wav" low_pitch="0.8" high_pitch="1.1" low_rev="0.4" high_rev="1.0" volume="1.0" />
+
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="hit" filename="car_hit3.wav" />
+	
+	<event>
+		<trigger class="destroy" />  	
+    		<result class="spawn" instance_class="vehicle" instance_key="guntruck.vehicle" min_amount="1" max_amount="1" offset="0 0.0 0" position_spread="0 0" direction_spread="0 -1" />
+	</event>  
+  
+</vehicle>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='ak47.weapon' />
+	<weapon key='m16a1.weapon' />
+	<weapon key='mg42.weapon' />
+	<weapon key='mosin.weapon' />
+	<weapon key='ppsh.weapon' />
+
+	<weapon key='sks_supp.weapon' />
+
+	<weapon key='m1a1.weapon' />
+</resources>

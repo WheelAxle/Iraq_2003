@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='akm.weapon' />
+	<weapon key='pkm.weapon' />
+	<weapon key='dragunov_svd.weapon' />
+      
+	<weapon key='saiga.weapon' />
+	<weapon key='asval.weapon' />
+
+	<weapon key='tabuk.weapon' />
+</resources>
