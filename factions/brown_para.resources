@@ -5,7 +5,7 @@
 	<weapon key='aks74u.weapon' />
 	<weapon key='g3.weapon' />
 
-	<weapon key='rpg-18.weapon' /> 
+	<weapon key='rpg-22.weapon' /> 
 
 	<projectile key='rgd_grenade.projectile' />
 	<projectile key='stun_grenade.projectile' />    

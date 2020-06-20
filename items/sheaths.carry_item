@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<carry_item file="base_valuable.carry_item" name="condoms" key="sheaths.carry_item">
+<carry_item file="base_valuable.carry_item" name="Latex covering?" key="sheaths.carry_item">
     <hud_icon filename="hud_sheaths.png" />
 
     <inventory encumbrance="0.5" price="40.0" />

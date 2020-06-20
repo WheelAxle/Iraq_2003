@@ -6,7 +6,7 @@
 	<weapon key='m249.weapon' />
 	<weapon key='p90.weapon' />
     
-	<weapon key='m72_law.weapon' />     
+	<weapon key='m136.weapon' />     
 
 	<projectile key='m67_grenade.projectile' />
 	<projectile key='stun_grenade.projectile' />    

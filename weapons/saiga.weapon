@@ -18,7 +18,7 @@
     <animation key="recoil" ref="27" />
     <animation key="cycle" ref="28" />
     <animation key="reload" animation_key="reloading, aa-12" />
-    <sound key="fire" fileref="saiga.wav" pitch_variety="0.05" volume="0.7" />
+    <sound key="fire" fileref="saiga.wav" pitch_variety="0.05" volume="0.5" />
     <sound key="magazine_out" fileref="reloadak_1.wav" />
     <sound key="magazine_in" fileref="reloadak_2.wav" />
     <sound key="cycle" fileref="reloadak_3.wav" />

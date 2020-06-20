@@ -36,7 +36,7 @@
 
     <ballistics near_far_distance="1000.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="100.0" randomness="0.0" />
 
-    <projectile file="rpg-18.projectile" />
+    <projectile file="rpg-18_rocket.projectile" />
     <weak_hand_hold offset="0.3" />
 
     <capacity value="0" source="rank" source_value="0.0" />

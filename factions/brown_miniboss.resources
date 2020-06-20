@@ -8,6 +8,7 @@
 
 	<weapon key='rpg-18.weapon' />
 	<weapon key='rpg-7.weapon' />
+	<weapon key='rpg-29.weapon' />
 
 	<call key="gunrun2.call" />
 	<call key="artillery1.call" />

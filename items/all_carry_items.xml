@@ -42,8 +42,8 @@
 	<carry_item file="ipoo_player_pink.carry_item" />   
 	<carry_item file="playing_cards.carry_item" />
 	<carry_item file="underpants.carry_item" /> 
-    	<carry_item file="kamasutra.carry_item" /> 
-    	<carry_item file="cd.carry_item" /> 
+    <carry_item file="kamasutra.carry_item" /> 
+    <carry_item file="cd.carry_item" /> 
 	<carry_item file="eodvest.carry_item" /> 
 	<carry_item file="camouflage_suit.carry_item" />
 	<carry_item file="vest1.carry_item" />      

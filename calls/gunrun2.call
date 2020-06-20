@@ -14,7 +14,7 @@
            vertical_offset_at_spawn="20" 
            launch_time="5.0"
            spawn_time="6.0">
-	   <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+	   <effect class="launch" ref="ShadowAirplaneFlyby_F22" shadow="1" />
 	   <sound class="spawn" fileref="a10_flyby2.wav" volume="4.0" />
     </round>
 

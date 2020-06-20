@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_secondary.weapon" key="rpg-7.weapon">
+<weapon file="base_secondary.weapon" key="m136.weapon">
     <tag name="bazooka" />
     <specification 
   retrigger_time="-1.0" 
   accuracy_factor="1.0" 
   sustained_fire_grow_step="0.4" 
-  sustained_fire_diminish_rate="0.13" 
+  sustained_fire_diminish_rate="0.15" 
   magazine_size="1" 
   can_shoot_standing="1" 
-  can_shoot_crouching="1" 
-  can_shoot_prone="0" 
+  can_shoot_crouching="1"
+  can_shoot_prone="0"  
   suppressed="0" 
-  name="RPG-7" 
+  name="M136" 
   class="3" 
   reload_one_at_a_time="1" 
   sight_range_modifier="1" 
-  projectile_speed="40.0" 
+  projectile_speed="50.0" 
   slot="1" 
   projectiles_per_shot="1" />
     <animation key="recoil" ref="40" />
@@ -24,29 +24,28 @@
     <animation key="hold" ref="39" />
     <animation key="hold_on_wall" ref="39" />
 
-    <sound key="fire" fileref="rpg.wav" volume="0.8" />
+    <sound key="fire" fileref="m72law.wav" volume="0.7" />
     <sound key="cycle" fileref="sniper_cycle.wav" />
     <sound key="magazine_out" fileref="sniper_clip_out.wav" />
     <sound key="magazine_in" fileref="sniper_clip_in.wav" />
     <sound key="cycle_out" fileref="sniper_cycle_out.wav" />
     <sound key="cycle_in" fileref="sniper_cycle_in.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
-    <model filename="rpg7.xml" />
+    <model filename="m136.xml" />
 
     <ballistics near_far_distance="1000.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="100.0" randomness="0.0" />
 
-    <projectile file="rpg-7_rocket.projectile" />
+    <projectile file="m136_rocket.projectile" />
     <weak_hand_hold offset="0.3" />
 
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="0.1" />
-    <capacity value="2" source="rank" source_value="0.2" />
+    <capacity value="1" source="rank" source_value="0.4" />
 
-    <hud_icon filename="hud_rpg-7.png" />
-    <commonness value="0.22" />
-    <inventory encumbrance="5.0" price="3.0" />
+    <hud_icon filename="hud_m72law.png" />
+    <commonness value="0.02" />
+    <inventory encumbrance="10.0" price="200.0" />
 
     <effect class="muzzle" ref="LawMuzzle" />
     <effect class="muzzle" ref="UpDust" />
-    <modifier class="speed" value="-0.18" />     
+    <modifier class="speed" value="-0.16" />
 </weapon>

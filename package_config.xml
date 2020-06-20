@@ -11,7 +11,6 @@
 	<campaign_options 
 		faction="1" 
 		presets="1"
-		friendly_fire="1"
 		friendly_capacity="1"
 		enemy_capacity="1"
 		friendly_accuracy="1"

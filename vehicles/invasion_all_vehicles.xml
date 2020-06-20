@@ -51,7 +51,6 @@
   <vehicle file="special_cargo_vehicles.xml" />  
   <vehicle file="special_crates_wood.xml" />  
 
-  <vehicle file="tractor.vehicle" />
   <vehicle file="flare_checkpoint.vehicle" /> 
   
   <vehicle file="heli_extraction_broken.vehicle" /> 

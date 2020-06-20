@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_grenades="1" clear_carry_items="1">
 	<weapon key='m40a3.weapon' />
+	<weapon key='m24.weapon' />
 	<weapon key='barrett_m107.weapon' />
 	<weapon key='scarssr.weapon' />
 	<carry_item key='camouflage_suit.carry_item' />

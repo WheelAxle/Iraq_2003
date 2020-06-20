@@ -32,6 +32,7 @@
 	<weapon file="mosin_supp.weapon" />
 	<weapon file="barrett_m107.weapon" />
 	<weapon file="scarssr.weapon" />
+	<weapon file="m24.weapon" />
 
 	<weapon file="m14.weapon" />
 	<weapon file="m1a1.weapon" />
@@ -48,7 +49,7 @@
 	<weapon file="saiga.weapon" />
 	<weapon file="aa-12.weapon" />
 	<weapon file="jackhammer.weapon" />
- 	<weapon file="uts15.weapon" /> 
+ 	
 	
 	<weapon file="tank_cannon.weapon" />
 	<weapon file="tank_mg.weapon" />
@@ -75,11 +76,12 @@
   
 	<weapon file="humvee_mg.weapon" />
 
-	<weapon file="rpg-7.weapon" />
-	<weapon file="m2_carlgustav.weapon" /> 
 	<weapon file="m72_law.weapon" />
+	<weapon file="m136.weapon" />
 	<weapon file="javelin.weapon" />
+	<weapon file="rpg-7.weapon" />
 	<weapon file="rpg-18.weapon" />
+	<weapon file="rpg-22.weapon" />
 	<weapon file="rpg-29.weapon" />
 	<weapon file="stinger.weapon" />
   	<weapon file="smaw.weapon" />

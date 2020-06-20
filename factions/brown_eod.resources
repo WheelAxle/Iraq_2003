@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<weapon key='uts15.weapon' />
 	<weapon key='saiga.weapon' />
 	<weapon key='microgun.weapon' />
 	

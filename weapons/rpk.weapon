@@ -9,7 +9,7 @@
   magazine_size="75" 
   can_shoot_standing="1" 
   suppressed="0" 
-  name="RPK" 
+  name="RPK-74" 
   class="0" 
   projectile_speed="100.0" />
 

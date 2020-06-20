@@ -28,6 +28,7 @@
 	<call key="paratroopers2.call" />
 	<call key="paratroopers_medic.call" />    
 	<call key="cover_drop.call" />
+	<call key="care_drop2.call" />
 	<call key="buggy.call" />
 	<call key="guntruck.call" />
 	<call key="tank.call" /> 

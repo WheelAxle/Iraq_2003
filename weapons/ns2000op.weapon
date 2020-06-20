@@ -12,7 +12,7 @@
     class="1" 
     reload_one_at_a_time="1" 
     sight_range_modifier="1.0" 
-    projectile_speed="90.0" 
+    projectile_speed="100.0" 
     projectiles_per_shot="4" />
 
     <animation key="recoil" ref="27" />
@@ -30,9 +30,9 @@
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">
-        <result class="hit" kill_probability="0.95" 
+        <result class="hit" kill_probability="0.98" 
         kill_decay_start_time="0.35" 
-        kill_decay_end_time="0.60" />
+        kill_decay_end_time="0.70" />
     </projectile>
     
     <stance state_key="running" accuracy="0.6" />
@@ -44,6 +44,6 @@
     <stance state_key="prone_moving" accuracy="0.3" />
     <stance state_key="over_wall" accuracy="0.85" /> 
     
-    <modifier class="speed" value="-0.00" />    
+    <modifier class="speed" value="-0.02" />    
 </weapon>
 
