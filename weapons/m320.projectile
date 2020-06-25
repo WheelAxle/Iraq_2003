@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="GL06" slot="1" pulldown_in_air="26.0" key="gl06.projectile">
+<projectile class="grenade" name="320" slot="1" pulldown_in_air="26.0" key="m320.projectile">
     <tag name="grenade"/>
-    <result class="blast" radius="4.0" damage="0.50" push="0.4" decal="1" />
+    <result class="blast" radius="4.4" damage="0.50" push="0.37" decal="1" />
     <trigger class="impact" />
     <rotation class="motion" />
     <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
 
     <commonness value="0.0" />
 
-    <sound class="result" key="other" fileref="explosion_grenade1.wav" />
-    <sound class="result" key="other" fileref="explosion_grenade2.wav" />
+    <sound class="result" key="other" fileref="explosion1.wav" />
+    <sound class="result" key="other" fileref="explosion2.wav" />
 
     <sound class="result" key="vehicle" copy="other" />    
     <sound class="result" key="vehicle" tag="metal_heavy" fileref="blast_metal_hit_01.wav" pitch_variety="0.2" volume="0.8" />

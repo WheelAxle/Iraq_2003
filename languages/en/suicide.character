@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<character filename="in_arab.character">
+	<comment key="Quickly!" text="Subhanllah!" />  
+	
+	<comment key="fire opened, weapon tag = sniper" text="'Allāhu 'akbar!" />
+	
+	<comment key="grenade alert, grenade tag = grenade" text="'Allāhu 'akbar!" />
+		
+	<comment key="grenade alert, grenade tag = rocket" text="'Allāhu 'akbar!" />
+	
+	<comment key="enemy seen" text="Subhanllah!" />
+	<comment key="enemy seen" text="'Allāhu 'akbar!" />
+	
+	<comment key="Move out" text="'Allāhu 'akbar!" />
+	<comment key="Move out" text="Subhanllah!" />
+	
+</character>

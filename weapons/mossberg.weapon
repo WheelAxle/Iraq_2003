@@ -27,7 +27,7 @@
 
     <hud_icon filename="hud_mossberg.png" />
     <commonness value="0.02" />
-    <inventory encumbrance="10.0" price="2.0" />
+    <inventory encumbrance="10.0" price="3.0" />
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">

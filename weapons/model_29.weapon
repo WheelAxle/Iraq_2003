@@ -12,7 +12,7 @@
 	can_shoot_standing="1"
 	suppressed="0"
     carry_in_two_hands="0" 
-	name="44 Magnum"
+	name="Model 29"
 	class="4"
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.0"

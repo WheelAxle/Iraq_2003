@@ -3,5 +3,6 @@
 	<weapon key='mp5.weapon' />
 	<weapon key='m16a3.weapon' />
 	<weapon key='m14.weapon' />
+	<weapon key='colt9mm.weapon' />
 
 </resources>

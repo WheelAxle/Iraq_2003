@@ -23,7 +23,7 @@
 	common_spread="0 0 0" 
 	launch_time="5.0"
 	spawn_time="11.0">
-	<sound class="launch" fileref="f22_flyby.wav" volume="4.0" />
+	<sound class="launch" fileref="f22_flyby.wav" volume="5.0" />
 	</round>
 	
     <hud_icon filename="hud_f22_raptor.png" />

@@ -1,4 +1,4 @@
-<vehicle name="Care Package" key="care_package_para.vehicle" spottable="0" map_view_atlas_index="-1" respawn_time="0" time_to_live="3.5" max_character_collision_speed="-1" max_character_collision_speed_on_normal="-1" >
+<vehicle name="Care Package" key="care_package_para2.vehicle" spottable="0" map_view_atlas_index="-1" respawn_time="0" time_to_live="3.5" max_character_collision_speed="-1" max_character_collision_speed_on_normal="-1" >
 	<tag name="sandbag" />
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
 	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />

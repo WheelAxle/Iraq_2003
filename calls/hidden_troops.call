@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call 	name="8 reinforcements" key="hidden_troops.call"
+	initiation_comment1="Reinforcements"
+	initiation_comment2="Need 8"
+	acknowledge_comment="Got it Brother"
+	launch_comment="Eight are coming"
+  notify_metagame="1"  >
+
+    <round instances="6"
+           instance_class="soldier"
+	   instance_key="para"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="2.0">
+    </round>
+
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="medic"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="2.0">
+    </round>
+
+    <hud_icon filename="hud_paratroopers2.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="200.0" />
+
+</call>

@@ -2,6 +2,7 @@
 <resources>
 	<weapon key='m40a3_supp.weapon' />
 	<weapon key='m21_supp.weapon' />
+	<weapon key='sr25.weapon' />
 
 	<call key="gunrun.call" />
 	<call key="artillery1.call" />

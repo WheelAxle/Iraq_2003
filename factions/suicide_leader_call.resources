@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_calls="1">
+	
+	<call key="mortar1_in.call" />
+	<call key="suicide.call" />
+	<call key="hidden_troops.call" />
+
+</resources>

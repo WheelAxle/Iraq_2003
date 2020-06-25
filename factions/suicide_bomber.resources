@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_grenades="1" clear_carry_items="1" clear_calls="1">
+
+	<carry_item key='suicide_vest3.carry_item' />
+</resources>

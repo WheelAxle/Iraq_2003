@@ -4,7 +4,7 @@
 
     <specification 
   retrigger_time="-1" 
-  accuracy_factor="0.8" 
+  accuracy_factor="0.75" 
   sustained_fire_grow_step="3.0" 
   sustained_fire_diminish_rate="0.2" 
   magazine_size="1" 
@@ -12,23 +12,24 @@
   suppressed="0" 
   name="M320" 
   class="4" 
-  projectile_speed="120.0" 
+  projectile_speed="100.0" 
   barrel_offset="0.2" 
-  spread_range="0.035"/>
+  spread_range="0.04"
+  slot="0" />
 
-	<!-- M79 New <ballistics curve_height="3.0" near_far_distance="16.0" speed_estimation_near="10.0" speed_estimation_far="16.0" max_speed="47.0" randomness="0.0" tweak_factor="1.55" />   -->
-	<!-- <ballistics curve_height="4.0" near_far_distance="23.0" speed_estimation_near="12.5" speed_estimation_far="20.0" max_speed="45.0" randomness="0.0" tweak_factor="1.25" />   -->
-    <ballistics curve_height="4.0" near_far_distance="23.0" speed_estimation_near="12.5" speed_estimation_far="20.0" max_speed="45.0" randomness="0.0" tweak_factor="1.25" />
+    <!--     <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="30.0" randomness="0.0" />    -->
+    <ballistics curve_height="3.0" near_far_distance="16.0" speed_estimation_near="10.0" speed_estimation_far="16.0" max_speed="47.0" randomness="0.0" tweak_factor="1.55" /> 
+    <!-- <ballistics curve_height="4.0" near_far_distance="10.0" speed_estimation_near="20.0" max_speed="160.0" randomness="0.0" />   -->
+    <!-- <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="100.0" randomness="0.0" /> -->
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
     <animation key="recoil" ref="14" />
-    <animation state_key="reload" animation_key="reloading, gl06" />
-
-    <sound key="fire" fileref="m230.wav" pitch_variety="0.1" volume="1.0" />
-    <sound key="magazine_out" fileref="reloadm230_1.wav" volume="0.7" />
-    <sound key="magazine_in" fileref="reloadm230_1.wav" volume="0.7"/>
-    <sound key="cycle" fileref="reloadm230_2.wav" volume="0.7"/>
+    <animation state_key="reload" animation_key="reloading, m79" />
+    <sound key="fire" fileref="m320_shot.wav" pitch_variety="0.1" volume="0.5" />
+    <sound key="magazine_out" fileref="m320_clip_out.wav" volume="0.7" />
+    <sound key="magazine_in" fileref="m79_reload.wav" volume="0.7"/>
+    <sound key="cycle" fileref="m79_cycle.wav" volume="0.7"/>
     <sound class="impact" fileref="rifle_drop.wav" />
 
     <model filename="m320.xml" />
@@ -37,11 +38,11 @@
     <weak_hand_hold offset="0.005" />
 
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="0.3" />
+    <capacity value="1" source="rank" source_value="0.6" />
 
-    <hud_icon filename="hud_gl06.png" />
-    <commonness value="0.09" can_respawn_with="0" />
-    <inventory encumbrance="10.0" price="25.0" />
+    <hud_icon filename="hud_m320.png" />
+    <commonness value="0.0005" can_respawn_with="0" in_stock="0" />
+    <inventory encumbrance="10.0" price="320.0" />
 
     <effect class="muzzle" ref="LawMuzzle" />
     <effect class="muzzle" ref="UpDust" />
@@ -56,6 +57,6 @@
     <stance state_key="prone" accuracy="1.0" />
     <stance state_key="over_wall" accuracy="0.8" /> 
     
-    <modifier class="speed" value="-0.10" />    
+    <modifier class="speed" value="-0.03" />    
 
 </weapon>

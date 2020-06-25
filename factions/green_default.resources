@@ -8,10 +8,15 @@
 	<projectile key='flare.projectile' />
 
 	<weapon key='laser_desig.weapon' />
-	
-	<weapon key='bayonet_m.weapon' />
+	<weapon key='repair_torch.weapon' />
+
 	<weapon key='riot_shield.weapon' />
 	<weapon key='fak.weapon' />
+
+	<carry_item key='vest1.carry_item' enabled="1" />
+	<carry_item key='vest2.carry_item' enabled="1" />
+	<carry_item key='vest3.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3_5.carry_item' enabled="0" />
 
  	<vehicle key="jeep.vehicle" />
  	<vehicle key="apc.vehicle" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Carried Bomb" key="hidden_bomb.carry_item" drop_count_factor_on_death="0.0" >
+    <hud_icon filename="hud_bible.png" />
+    <inventory encumbrance="5.0" price="5.0" />
+
+    <model mesh_filename="impact_grenade.xml" />
+    <drop_on_death_result class="spawn" instance_class="projectile" instance_key="suicide_heavy_bomb.projectile" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />    
+<!--    <drop_on_death_result class="spawn" instance_class="character" instance_key="default_ai" min_amount="1" max_amount="10" offset="0 2.0 0" position_spread="0 0" direction_spread="0 0" />   --> 
+    <commonness value="0.0" in_stock="1" />
+</carry_item>

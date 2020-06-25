@@ -10,7 +10,7 @@
 	<carry_item file="comic_book.carry_item" />
 	<carry_item file="rwr_handbook.carry_item" />
 	<carry_item file="oscar_statue.carry_item" />
-	<carry_item file="vest2.carry_item" /> 
+ 
 
 	<carry_item file="cigars.carry_item" />
 	<carry_item file="beer_can.carry_item" />
@@ -18,8 +18,20 @@
 	<carry_item file="steroids.carry_item" />  
 	<carry_item file="teddy.carry_item" />      
 
+	<carry_item file="hidden_bomb.carry_item" />
+
+	<carry_item file="vest1.carry_item" />    
+	<carry_item file="vest2.carry_item" />	
 	<carry_item file="vest3.carry_item" />
-	
+	<carry_item file="eodvest.carry_item" /> 
+	<carry_item file="camouflage_suit.carry_item" />
+	<carry_item file="vest_blackops.carry_item" />	
+	<carry_item file="camo_vest.carry_item" />
+	<carry_item file="suicide_vest.carry_item" /> 
+	<carry_item file="suicide_vest2_5.carry_item" /> 
+	<carry_item file="suicide_vest3.carry_item" /> 
+	<carry_item file="suicide_vest3_5.carry_item" /> 
+
 	<carry_item file="bible.carry_item" /> 
 	<carry_item file="koran.carry_item" /> 
 	<carry_item file="chewing_gum.carry_item" />
@@ -44,27 +56,12 @@
 	<carry_item file="underpants.carry_item" /> 
     <carry_item file="kamasutra.carry_item" /> 
     <carry_item file="cd.carry_item" /> 
-	<carry_item file="eodvest.carry_item" /> 
-	<carry_item file="camouflage_suit.carry_item" />
-	<carry_item file="vest1.carry_item" />      
+
    	<carry_item file="pickashoe.carry_item" /> 
-  
-	<carry_item file="costume_werewolf.carry_item" />
-	<carry_item file="costume_clown.carry_item" />
-	<carry_item file="costume_santa.carry_item" />
-  
-	<carry_item file="vest_blackops.carry_item" />	
+
 	<carry_item file="laptop.carry_item" />
-  
-	<carry_item file="costume_lizard.carry_item" />
-	<carry_item file="costume_underpants.carry_item"/>     
 
-	<carry_item file="costume_banana.carry_item" />
-	<carry_item file="camo_vest.carry_item" />
-
-	<carry_item file="lottery.carry_item" />    
-    
-	<carry_item file="costume_butcher.carry_item" /> 
+	<carry_item file="lottery.carry_item" />     
       
 	<carry_item file="god_vest.carry_item" />
     

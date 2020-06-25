@@ -15,8 +15,6 @@
 	
 	<call file="gunrun.call" />
 	<call file="gunrun2.call" />
-	<call file="paratroopers3.call" />
-	<call file="paratroopers4.call" />
 	<call file="technical.call" />
 	<call file="precision.call" />
 	<call file="precision2.call" />
@@ -26,6 +24,12 @@
 	<call file="usapc.call" />
 	<call file="cheap_cover.call" />
 	<call file="care_drop.call" />
+	<call file="brdm.call" />
+
+	<call file="paratroopers3.call" />
+	<call file="paratroopers4.call" />
+	<call file="hidden_troops.call" />
+	<call file="suicide.call" />
 
 	<call file="laser_strike.call" />
 

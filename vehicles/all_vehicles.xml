@@ -34,7 +34,8 @@
 	<vehicle file="atv_base.vehicle" />
 	<vehicle file="atv_armory.vehicle" />
 	
-
+	<vehicle file="brdm_para.vehicle" />
+	<vehicle file="brdm.vehicle" />
 <!-- 
 	<vehicle file="aa_emplacement.vehicle" />
  	<vehicle file="mortar_ammunition_crates.vehicle" />   

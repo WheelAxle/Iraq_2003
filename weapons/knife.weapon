@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_secondary.weapon" key="knife.weapon">
+    <tag name="cqb" />
+	
+    <specification
+    magazine_size="-1" 
+    can_shoot_prone="0" 
+    carry_in_two_hands="0" 
+    name="Knife" 
+    class="5" 
+    character_state="death" 
+    consume="0" 
+    sight_range_modifier="1" 
+    slot="1" 
+    range="3.5"
+    success_probability="3.0"
+    stab_enabled="1"
+    stab_range="3.5"
+	/>
+
+	<animation state_key="recoil"			animation_key="stabbing, fast" />
+	<animation state_key="cycle"			animation_key="recoil, knife" />
+	<animation state_key="reload"			animation_key="reloading, pistol" />
+	<animation state_key="hold"			animation_key="hold, knife" />
+	<animation state_key="hold_casual"		animation_key="hold, knife" />
+	<animation state_key="hold_on_wall"		animation_key="hold, knife" />
+	<animation state_key="still_against_wall"	animation_key="hold, knife" />
+	<animation state_key="crouching"		animation_key="crouch, knife" />
+	<animation state_key="running"			animation_key="running, pistol" />
+	<animation state_key="walking"			animation_key="walking, pistol" />
+	<animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+	<animation state_key="prone_still" 		animation_key="prone_still, pistol" />
+	<animation state_key="walking_backwards" 	animation_key="walking backwards, pistol" />
+	<animation state_key="stabbing"			animation_key="stabbing, fast" />
+	
+	<sound key="fire" fileref="grenade_throw1.wav" pitch_variety="0.05" />
+	<sound key="fire" fileref="grenade_throw1.wav" pitch_variety="0.05" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" />
+
+
+	<model filename="knife.xml" />
+	<hud_icon filename="hud_golden_knife.png" />
+	
+	<commonness value="0.0" can_respawn_with="1" in_stock="1" />
+	<inventory encumbrance="5.0" price="0.0" />
+	
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+	<modifier class="speed" value="+0.0" />
+	
+</weapon>

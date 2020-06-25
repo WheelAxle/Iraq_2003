@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="suicide_vest3_5.carry_item" name="Reinforced Bomb Vest" slot="1" transform_on_consume="vests2_25" drop_count_factor_on_death="0.0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.1" />
+        <inventory encumbrance="4" price="45" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="1" can_respawn_with="0" />
+
+	<!-- death or wound or stun -> no effect -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+<!--        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />   -->
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<!-- melee_hit goes right through, and doesn't consume -->
+    
+	<drop_on_death_result class="spawn" instance_class="projectile" instance_key="suicide_bomb.projectile" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" /> 
+
+	<modifier class="speed" value="-0.05" />  
+    </carry_item>
+
+    <carry_item key="vests2_25" name="Reinforced Bomb Vest 50%" slot="1" transform_on_consume="vests2_35" drop_count_factor_on_death="0.0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.05" />
+        <inventory encumbrance="4" price="2" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<!-- death -> wound -->
+          <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+	<!-- melee_hit goes right through, and doesn't consume -->
+	
+	<drop_on_death_result class="spawn" instance_class="projectile" instance_key="suicide_bomb.projectile" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" /> 
+	
+	<modifier class="speed" value="-0.05" />
+    </carry_item>
+    
+    <carry_item key="vests2_35" name="Reinforced Bomb Vest 25%" slot="1"  transform_on_consume="vests2_45" drop_count_factor_on_death="0.0">
+        <hud_icon filename="hud_vest_hole2.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.05" />
+        <inventory encumbrance="4" price="1" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<!-- death -> wound -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+	<!-- melee_hit goes right through, and doesn't consume -->
+
+	<drop_on_death_result class="spawn" instance_class="projectile" instance_key="suicide_bomb.projectile" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" /> 
+
+    	<modifier class="speed" value="-0.05" />  
+    </carry_item>
+
+     <carry_item key="vests2_45" name="Reinforced Bomb Vest 0%" slot="1" drop_count_factor_on_death="0.0">
+        <hud_icon filename="hud_vest_hole2.png" />
+        <capacity value="0" source="rank" source_value="0.0" />
+        <capacity value="1" source="rank" source_value="0.05" />
+        <inventory encumbrance="3" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<!-- death -> wound -->
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="0" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />   
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<!-- melee_hit goes right through, and doesn't consume -->
+        
+	<drop_on_death_result class="spawn" instance_class="projectile" instance_key="suicide_bomb.projectile" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" /> 
+
+	<modifier class="speed" value="+0.06" />   
+    </carry_item>
+
+</carry_items>

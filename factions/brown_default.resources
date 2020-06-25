@@ -7,9 +7,11 @@
 	<projectile key='c4.projectile' />
 	<projectile key='flare.projectile' />
 
-	<weapon key='bayonet_k.weapon' />
 	<weapon key='riot_shield.weapon' />
 	<weapon key='medikit.weapon' />
+
+	<carry_item key='vest1.carry_item' enabled="1" />
+	<carry_item key='vest2.carry_item' enabled="1" />
 
  	<vehicle key="jeep_2.vehicle" />
  	<vehicle key="apc_2.vehicle" />
@@ -29,8 +31,8 @@
 	<call key="paratroopers_medic.call" />    
 	<call key="cover_drop.call" />
 	<call key="care_drop2.call" />
-	<call key="buggy.call" />
 	<call key="guntruck.call" />
+	<call key="brdm.call" />
 	<call key="tank.call" /> 
 
 </resources>

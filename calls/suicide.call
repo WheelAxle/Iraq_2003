@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call 	name="4 bombers" key="suicide.call"
+	initiation_comment1="Bombers"
+	initiation_comment2="need 7"
+	acknowledge_comment="Got it brother, they are on the way"
+	launch_comment="They're coming"
+       notify_metagame="1"  >
+
+    <round instances="5"
+           instance_class="soldier"
+	   instance_key="suicide"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="2.0">
+    </round>
+
+    <round instances="1"
+           instance_class="soldier"
+	   instance_key="suicide_2"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="2.0">
+    </round>
+
+    <round instances="1"
+           instance_class="soldier"
+	   instance_key="suicide_leader"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="2.0">
+    </round>   
+
+    <hud_icon filename="hud_paratroopers1.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.2" />
+    <inventory encumbrance="0.0" price="120.0" />
+
+</call>

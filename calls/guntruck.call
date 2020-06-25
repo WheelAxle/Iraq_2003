@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <call name="Humvee" key="guntruck.call"
       initiation_comment1="I need a truck"
-      acknowledge_comment="Roger that, Truck's in the air."
+      acknowledge_comment="Roger, Truck's in the air."
       launch_comment="Airdropping Truck now."
       	  notify_metagame="1">
 

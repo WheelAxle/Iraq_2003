@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectiles>
 
+	<!-- grenades -->
 	<projectile file="stun_grenade.projectile" />
 	<projectile file="f1_grenade.projectile" />
 	<projectile file="rgd_grenade.projectile" />
 	<projectile file="m67_grenade.projectile" />
 	<projectile file="rgo_grenade.projectile" />
 	<projectile file="beano_grenade.projectile" />
+	<projectile file="rkg_grenade.projectile" />
 
 	<!-- rather awkward place for this definition, but for now, that's the way it is -->
 	<!-- projectile itself defines its slot, 0 being actual throwables that can also equipped, thrown, bought and found -->
@@ -15,6 +17,8 @@
 
 	<projectile file="c4.projectile" />
 	<projectile file="ied.projectile" />
+	<projectile file="suicide_bomb.projectile" />
+	<projectile file="suicide_heavy_bomb.projectile" />
 
 	<projectile file="artillery_shell.projectile" />
 
@@ -28,7 +32,7 @@
 	<projectile file="flare.projectile" />
 	<projectile file="claymore_blast.projectile" />   
 	<projectile file="claymore.projectile" />   
- 
+	<projectile file="fake_gem_plant.projectile" />
 
     <projectile file="naval_mine.projectile" />  
  	<projectile file="flare_checkpoint.projectile" />
@@ -44,15 +48,9 @@
 	<projectile file="missile3.projectile" />
 	<projectile file="laser_missile.projectile" />  
 	<projectile file="laser.projectile" />  
-
-	
-
-	
 	
 	<projectile file="banana_peel.projectile" />
 
-	
-	   
     <projectile file="30mm.projectile" />
     <projectile file="30mm_blast.projectile" />
     <projectile file="a10_warthog_shadow.projectile" />

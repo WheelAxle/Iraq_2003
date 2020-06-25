@@ -46,8 +46,7 @@
 		<requirement class="rank" range="0 10000" />
 	</model>    
 
-<!-- -------------------------- -->
-
+	<!-- -------------------------- -->
 	<model filename="soldier_b3_vest.xml">
 		<requirement class="carry_item" slot="1" key="vest3.carry_item"/>
 		<requirement class="rank" range="0 100" />
@@ -72,8 +71,55 @@
 		<requirement class="carry_item" slot="1" key="vest3_6"/>
 		<requirement class="rank" range="0 100" />
 	</model> 
-	
-<!-- -------------------------- -->
+
+	<!-- -------------------------- -->	
+	<model filename="soldier_b3_vest.xml">
+		<requirement class="carry_item" slot="1" key="suicide_vest3_5.carry_item"/>
+		<requirement class="rank" range="0 100" />
+	</model>
+
+	<model filename="soldier_b3_vest.xml">
+		<requirement class="carry_item" slot="1" key="vests2_25"/>
+		<requirement class="rank" range="0 100" />
+	</model>
+
+	<model filename="soldier_b3_vest.xml">
+		<requirement class="carry_item" slot="1" key="vests2_35"/>
+		<requirement class="rank" range="0 100" />
+	</model>
+
+	<model filename="soldier_b3_vest.xml">
+		<requirement class="carry_item" slot="1" key="vests2_45"/>
+		<requirement class="rank" range="0 100" />
+	</model>
+
+	<!-- -------------------------- -->
+	<model filename="soldier_b_vest_t3.xml">
+		<requirement class="carry_item" slot="1" key="vest3.carry_item"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
+	<model filename="soldier_b_vest_t3.xml">
+		<requirement class="carry_item" slot="1" key="vest3_2"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
+	<model filename="soldier_b_vest_t3.xml">
+		<requirement class="carry_item" slot="1" key="vest3_3"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
+	<model filename="soldier_b_vest_t3.xml">
+		<requirement class="carry_item" slot="1" key="vest3_4"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
+	<model filename="soldier_b_vest_t3.xml">
+		<requirement class="carry_item" slot="1" key="vest3_5"/>
+		<requirement class="rank" range="0 10000" />
+	</model>
+	<model filename="soldier_b_vest_t3.xml">
+		<requirement class="carry_item" slot="1" key="vest3_6"/>
+		<requirement class="rank" range="0 10000" />
+	</model> 
+
+	<!-- -------------------------- -->
 
 
 	<model filename="costume_were.xml">

@@ -1483,7 +1483,7 @@
         <voxel x="0" y="53" z="-1" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
         <voxel x="-1" y="53" z="-1" r="0.139437" g="0.139437" b="0.139437" a="1.000000" />
         <voxel x="-1" y="53" z="0" r="0.500000" g="0.500000" b="0.500000" a="1.000000" />
-        <voxel x="-1" y="53" z="1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-1" y="53" z="1" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
         <voxel x="0" y="53" z="0" r="0.500000" g="0.500000" b="0.500000" a="1.000000" />
         <voxel x="0" y="53" z="1" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
         <voxel x="1" y="53" z="0" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
@@ -1501,10 +1501,42 @@
         <voxel x="0" y="54" z="1" r="0.500000" g="0.500000" b="0.500000" a="1.000000" />
         <voxel x="2" y="51" z="0" r="0.597699" g="0.488067" b="0.308451" a="1.000000" />
         <voxel x="-2" y="51" z="0" r="0.597699" g="0.488067" b="0.308451" a="1.000000" />
-        <voxel x="0" y="52" z="-2" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
-        <voxel x="0" y="51" z="-2" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
-        <voxel x="-1" y="52" z="-2" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
-        <voxel x="-1" y="51" z="-2" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="2" y="53" z="1" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
+        <voxel x="2" y="53" z="0" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
+        <voxel x="2" y="53" z="-1" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
+        <voxel x="2" y="54" z="-1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="2" y="54" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="2" y="54" z="1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="1" y="54" z="1" r="0.500000" g="0.500000" b="0.500000" a="1.000000" />
+        <voxel x="-1" y="54" z="2" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="0" y="54" z="2" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="1" y="54" z="2" r="0.714085" g="0.714085" b="0.714085" a="1.000000" />
+        <voxel x="-1" y="55" z="-1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-1" y="55" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-1" y="55" z="1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="0" y="55" z="1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="0" y="55" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="1" y="55" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="1" y="55" z="-1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="0" y="55" z="-1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="1" y="55" z="1" r="0.714085" g="0.714085" b="0.714085" a="1.000000" />
+        <voxel x="2" y="55" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="1" y="53" z="-2" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
+        <voxel x="0" y="53" z="-2" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
+        <voxel x="-1" y="53" z="-2" r="0.015047" g="0.011875" b="0.014705" a="1.000000" />
+        <voxel x="1" y="54" z="-2" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="0" y="54" z="-2" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-1" y="54" z="-2" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="0" y="55" z="-2" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-2" y="54" z="1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-2" y="54" z="0" r="0.500000" g="0.500000" b="0.500000" a="1.000000" />
+        <voxel x="-2" y="54" z="-1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-2" y="55" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-3" y="54" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-3" y="53" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-3" y="53" z="1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-3" y="52" z="1" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
+        <voxel x="-3" y="52" z="0" r="0.173239" g="0.164789" b="0.164789" a="1.000000" />
     </voxels>
     <skeleton>
         <particle x="0.500000" y="55.500000" z="0.500000" invMass="15.000000" id="50" name="head" bodyAreaHint="2" />
@@ -1743,7 +1775,6 @@
             <voxel index="257" />
             <voxel index="258" />
             <voxel index="259" />
-            <voxel index="260" />
             <voxel index="266" />
             <voxel index="267" />
             <voxel index="273" />
@@ -1752,7 +1783,6 @@
             <voxel index="276" />
             <voxel index="279" />
             <voxel index="280" />
-            <voxel index="402" />
             <voxel index="403" />
             <voxel index="404" />
             <voxel index="493" />
@@ -1786,9 +1816,7 @@
             <voxel index="866" />
             <voxel index="867" />
             <voxel index="868" />
-            <voxel index="869" />
             <voxel index="870" />
-            <voxel index="922" />
             <voxel index="927" />
             <voxel index="928" />
             <voxel index="929" />
@@ -1815,7 +1843,6 @@
             <voxel index="953" />
             <voxel index="954" />
             <voxel index="955" />
-            <voxel index="956" />
             <voxel index="957" />
             <voxel index="1066" />
             <voxel index="1067" />
@@ -1831,8 +1858,7 @@
             <voxel index="42" />
             <voxel index="44" />
             <voxel index="53" />
-            <voxel index="54" />
-            <voxel index="265" />
+            <voxel index="260" />
             <voxel index="268" />
             <voxel index="269" />
             <voxel index="272" />
@@ -1846,6 +1872,7 @@
             <voxel index="380" />
             <voxel index="381" />
             <voxel index="395" />
+            <voxel index="402" />
             <voxel index="405" />
             <voxel index="494" />
             <voxel index="495" />
@@ -1891,7 +1918,6 @@
             <voxel index="780" />
             <voxel index="782" />
             <voxel index="783" />
-            <voxel index="784" />
             <voxel index="785" />
             <voxel index="786" />
             <voxel index="787" />
@@ -1902,18 +1928,19 @@
             <voxel index="792" />
             <voxel index="793" />
             <voxel index="794" />
-            <voxel index="795" />
             <voxel index="796" />
             <voxel index="797" />
             <voxel index="798" />
             <voxel index="799" />
             <voxel index="800" />
             <voxel index="803" />
+            <voxel index="869" />
+            <voxel index="922" />
             <voxel index="923" />
-            <voxel index="924" />
             <voxel index="941" />
             <voxel index="942" />
             <voxel index="943" />
+            <voxel index="956" />
             <voxel index="980" />
             <voxel index="981" />
             <voxel index="982" />
@@ -1924,8 +1951,6 @@
             <voxel index="1075" />
             <voxel index="1076" />
             <voxel index="1077" />
-            <voxel index="1081" />
-            <voxel index="1082" />
             <voxel index="1083" />
             <voxel index="1084" />
             <voxel index="1085" />
@@ -1954,6 +1979,7 @@
             <voxel index="47" />
             <voxel index="49" />
             <voxel index="51" />
+            <voxel index="54" />
             <voxel index="55" />
             <voxel index="58" />
             <voxel index="59" />
@@ -2006,6 +2032,7 @@
             <voxel index="262" />
             <voxel index="263" />
             <voxel index="264" />
+            <voxel index="265" />
             <voxel index="270" />
             <voxel index="271" />
             <voxel index="414" />
@@ -2062,6 +2089,8 @@
             <voxel index="613" />
             <voxel index="614" />
             <voxel index="781" />
+            <voxel index="784" />
+            <voxel index="795" />
             <voxel index="805" />
             <voxel index="806" />
             <voxel index="807" />
@@ -2082,7 +2111,6 @@
             <voxel index="899" />
             <voxel index="900" />
             <voxel index="901" />
-            <voxel index="912" />
             <voxel index="913" />
             <voxel index="914" />
             <voxel index="915" />
@@ -2092,6 +2120,7 @@
             <voxel index="919" />
             <voxel index="920" />
             <voxel index="921" />
+            <voxel index="924" />
             <voxel index="925" />
             <voxel index="926" />
             <voxel index="976" />
@@ -2101,6 +2130,8 @@
             <voxel index="1078" />
             <voxel index="1079" />
             <voxel index="1080" />
+            <voxel index="1081" />
+            <voxel index="1082" />
             <voxel index="1086" />
             <voxel index="1087" />
             <voxel index="1088" />
@@ -2228,6 +2259,7 @@
             <voxel index="909" />
             <voxel index="910" />
             <voxel index="911" />
+            <voxel index="912" />
             <voxel index="989" />
             <voxel index="990" />
             <voxel index="991" />
@@ -2247,7 +2279,7 @@
             <voxel index="409" />
             <voxel index="531" />
             <voxel index="635" />
-            <voxel index="643" />
+            <voxel index="636" />
             <voxel index="644" />
             <voxel index="645" />
             <voxel index="646" />
@@ -2402,8 +2434,6 @@
             <voxel index="965" />
             <voxel index="966" />
             <voxel index="988" />
-            <voxel index="1024" />
-            <voxel index="1025" />
             <voxel index="1026" />
             <voxel index="1027" />
             <voxel index="1042" />
@@ -2421,7 +2451,6 @@
             <voxel index="1060" />
             <voxel index="1061" />
             <voxel index="1142" />
-            <voxel index="1220" />
             <voxel index="1221" />
             <voxel index="1222" />
             <voxel index="1228" />
@@ -2435,7 +2464,6 @@
             <voxel index="1268" />
             <voxel index="1269" />
             <voxel index="1270" />
-            <voxel index="1271" />
             <voxel index="1272" />
             <voxel index="1284" />
             <voxel index="1286" />
@@ -2553,7 +2581,6 @@
             <voxel index="1052" />
             <voxel index="1143" />
             <voxel index="1158" />
-            <voxel index="1161" />
             <voxel index="1297" />
             <voxel index="1298" />
             <voxel index="1299" />
@@ -2635,13 +2662,13 @@
             <voxel index="521" />
             <voxel index="522" />
             <voxel index="524" />
-            <voxel index="636" />
             <voxel index="637" />
             <voxel index="638" />
             <voxel index="639" />
             <voxel index="640" />
             <voxel index="641" />
             <voxel index="642" />
+            <voxel index="643" />
             <voxel index="670" />
             <voxel index="671" />
             <voxel index="672" />
@@ -2738,6 +2765,8 @@
             <voxel index="1016" />
             <voxel index="1017" />
             <voxel index="1018" />
+            <voxel index="1024" />
+            <voxel index="1025" />
             <voxel index="1028" />
             <voxel index="1029" />
             <voxel index="1033" />
@@ -2767,10 +2796,12 @@
             <voxel index="1217" />
             <voxel index="1218" />
             <voxel index="1219" />
+            <voxel index="1220" />
             <voxel index="1261" />
             <voxel index="1262" />
             <voxel index="1263" />
             <voxel index="1264" />
+            <voxel index="1271" />
             <voxel index="1311" />
             <voxel index="1312" />
             <voxel index="1313" />
@@ -2799,6 +2830,7 @@
             <voxel index="1157" />
             <voxel index="1159" />
             <voxel index="1160" />
+            <voxel index="1161" />
             <voxel index="1162" />
             <voxel index="1163" />
             <voxel index="1164" />
@@ -3079,6 +3111,38 @@
             <voxel index="1502" />
             <voxel index="1503" />
             <voxel index="1504" />
+            <voxel index="1505" />
+            <voxel index="1506" />
+            <voxel index="1507" />
+            <voxel index="1508" />
+            <voxel index="1509" />
+            <voxel index="1510" />
+            <voxel index="1511" />
+            <voxel index="1512" />
+            <voxel index="1513" />
+            <voxel index="1514" />
+            <voxel index="1515" />
+            <voxel index="1516" />
+            <voxel index="1517" />
+            <voxel index="1518" />
+            <voxel index="1519" />
+            <voxel index="1520" />
+            <voxel index="1521" />
+            <voxel index="1522" />
+            <voxel index="1523" />
+            <voxel index="1524" />
+            <voxel index="1525" />
+            <voxel index="1526" />
+            <voxel index="1527" />
+            <voxel index="1528" />
+            <voxel index="1529" />
+            <voxel index="1530" />
+            <voxel index="1531" />
+            <voxel index="1532" />
+            <voxel index="1533" />
+            <voxel index="1534" />
+            <voxel index="1535" />
+            <voxel index="1536" />
         </group>
     </skeletonVoxelBindings>
 </model>

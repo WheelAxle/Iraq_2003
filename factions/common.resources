@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_grenades="1">
+<resources clear_weapons="1" clear_vehicles="1" clear_grenades="1" clear_calls="1">
 	<!-- always load common first; it's the one that clears the initial weapon resources -->
 	<weapon key='cover_resource.weapon' />
 	<weapon key='mg_resource.weapon' />
@@ -8,13 +8,26 @@
 	<weapon key='claymore_resource.weapon' /> 
 	<weapon key='wrench.weapon' enabled="0" />
 	<weapon key='wrench_small.weapon' enabled="1" />           
-<!--  <weapon key='bandage.weapon' /> -->  
+
+	<weapon key='knife.weapon' /> 
+
 	<projectile key='shuriken.projectile' enabled="0" />
 	<projectile key='icecream.projectile' enabled="0" />           
 	<carry_item key='lottery.carry_item' enabled="0" />
 	<projectile file='flare.projectile' enabled="1" />
 
-	<weapon key="tti.weapon" />  
+	<carry_item key='vest1.carry_item' enabled="1" />
+	<carry_item key='vest2.carry_item' enabled="1" />
+	<carry_item key='vest3.carry_item' enabled="0" />
+	<carry_item key='eodvest.carry_item' enabled="0" />
+	<carry_item key='vest_blackops.carry_item' enabled="0" />
+	<carry_item key='camo_vest.carry_item' />
+	<carry_item key='camouflage_suit.carry_item' enabled="0" />  
+	<carry_item key='suicide_vest.carry_item' enabled="0" />
+	<carry_item key='suicide_vest2.carry_item' enabled="0" />
+	<carry_item key='suicide_vest2_5.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3_5.carry_item' enabled="0" />
 
 	<weapon key="enforcer.weapon" />
 	<weapon key="gps_laptop.weapon" />
@@ -25,6 +38,7 @@
 
 	<weapon key='portable_mortar.weapon' />
 
+	<carry_item key='hidden_bomb.carry_item' enabled="0" />
 
 	<!-- note, we have faction specific bazookas, therefore not included here -->
 	<weapon key='minig_resource.weapon' /> 
@@ -32,20 +46,6 @@
 	<weapon key='tow_resource.weapon' />  
 	<weapon key='gl_resource.weapon' /> 
 	<weapon key='humvee_gl.weapon' />    
-  
-	<carry_item key='vest3.carry_item' enabled="0" />
-	<carry_item key='eodvest.carry_item' enabled="0" />  
-	<carry_item key='camouflage_suit.carry_item' enabled="0" />  
-
-	<carry_item key='costume_were.carry_item' />
-	<carry_item key='costume_clown.carry_item' />
-	<carry_item key='costume_santa.carry_item' />
-	<carry_item key='costume_lizard.carry_item' />
-	<carry_item key='costume_underpants.carry_item' />
-	<carry_item key='vest_blackops.carry_item' enabled="0" />
-
-	<carry_item key='costume_banana.carry_item' />
-	<carry_item key='camo_vest.carry_item' />
 
 	<!-- common vehicles -->
 
@@ -123,15 +123,6 @@
 	<vehicle key="deco_pickup_blue.vehicle" />
 	<vehicle key="deco_pickup_green.vehicle" />
 	<vehicle key="deco_pickup_khaki.vehicle" /> 
-  
-	<vehicle key="racing_car1.vehicle" />	
-	<vehicle key="racing_car2.vehicle" />
-	<vehicle key="racing_car3.vehicle" />
-	<vehicle key="racing_car4.vehicle" />
-	<vehicle key="racing_car5.vehicle" />
-	<vehicle key="racing_car6.vehicle" />
-	<vehicle key="racing_car7.vehicle" />
-	<vehicle key="racing_car8.vehicle" />   
 
 	<vehicle key="jeep_ee.vehicle" />
 

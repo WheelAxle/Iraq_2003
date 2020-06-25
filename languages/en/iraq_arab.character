@@ -88,8 +88,8 @@
 
 	<comment key="cancel radio call" text="Standby, over" />
 	<comment key="cancel radio call" text="Nothing to report, out" />
-	<comment key="cancel radio call" text="wade alaistiedad , aintahaa" />
-	<comment key="cancel radio call" text="aintazar , 'akhraj" />
+	<comment key="cancel radio call" text="wade alaistiedad, aintahaa" />
+	<comment key="cancel radio call" text="aintazar, 'akhraj" />
 
 	<comment key="initiate radio call" text="'afrlurud, this is Nayib arif, Over" />
 	<comment key="initiate radio call" text="Nayib arif to 'afrlurud, Over" />

@@ -87,8 +87,10 @@
 
 	<comment key="cancel radio call" text="'ansaa dhlk" />
 	<comment key="cancel radio call" text="la shay' aintahaa" />
+
 	<comment key="initiate radio call" text="'afrlurud, this is Nayib arif, Over" />
 	<comment key="commander radio response" text="This is 'afrlurud, go ahead" />
+
 	<comment key="no radio equipment" text="la radiu" />
 	<comment key="no radio equipment" text="No radio, I'm a %rank_name" />
 	<comment key="no radio equipment" text="No radio" />
@@ -100,7 +102,7 @@
 	<comment key="Hey, wait up" />
 	<comment key="Hey, wait up" />
 	<comment key="Hey, wait up" text="Hey, wait!" />
-  <comment key="Hey, wait up" text="Wait for me!" />  
+    <comment key="Hey, wait up" text="Wait for me!" />  
 	
 	<comment key="Quickly!" />
 	<comment key="Quickly!" text="Go!" />  
@@ -210,8 +212,8 @@
 	<comment key="All quiet here" text="Hey, anyone got food?" />
 	<comment key="All quiet here" text="'afrlurud" /> 
 	<comment key="All quiet here" text="Hmm, too quiet..." />
-  <comment key="All quiet here" text="No sign of hostiles" />  
-  <comment key="All quiet here" text="We fight for freedom remember that!" />     
+  	<comment key="All quiet here" text="No sign of our enemies" />  
+  	<comment key="All quiet here" text="We fight for freedom remember that!" />     
 
 	<comment key="Yes sir" />
 	<comment key="Yes sir" text="On it brother" />
@@ -221,7 +223,7 @@
   <comment key="Yes sir" text="Copy" />
   <comment key="Yes sir" text="Affimative" />  
 
-	<comment key="Uh, I can't drive this thing" />
+	<comment key="Uh, I can't drive this thing" text="Steering Wheel is stuck brother" />
 	<comment key="Uh, I can't drive this thing" text="Can't drive brother.." />
 	<comment key="Uh, I can't drive this thing" text="*Sigh*" />
 	<comment key="Uh, I can't drive this thing" text="Can someone else drive?" />
@@ -235,7 +237,7 @@
   <comment key="Uh, I can't drive this thing" text="Anyone else want to drive?" />
   <comment key="Uh, I can't drive this thing" text="The window is foggy" />
   <comment key="Uh, I can't drive this thing" text="Damn, this steering sucks" />
-  <comment key="Uh, I can't drive this thing" text="Stop laughing in the back please" />
+  <comment key="Uh, I can't drive this thing" text="Stop laughing.." />
 
   <comment key="Waiting for squad" />
   <comment key="Waiting for squad" text="Hop in" />  
@@ -263,15 +265,15 @@
 	<comment key="celebrating" text="Finally we did it" />
 	<comment key="celebrating" text="Can't believe I'm alive....." />
 	<comment key="celebrating" text="I'm alive!" />
-	<comment key="celebrating" text="Alluh Ackbar!" />
+	<comment key="celebrating" text="'Allāhu 'akbar!" />
 	<comment key="celebrating" text="Anyone got a extra mag?" />
 	<comment key="celebrating" text="*vomit*" />
 	<comment key="celebrating" text="How many did we lose?" />
 	<comment key="celebrating" text="Finally I can go to the toilet" />
 	<comment key="celebrating" text="That took ages....." />
-	<comment key="celebrating" text="Talk about a good stalemate" />
+	<comment key="celebrating" text="tango sakat!" />
 	<comment key="celebrating" text="Now that's how it's done!" />
-	<comment key="celebrating" text="How much longer till we move out again?" />
+	<comment key="celebrating" text="For Allah!!" />
 	<comment key="celebrating" text="How long do you think this war will last?" />
   	<comment key="celebrating" text="Yes!" />
 
@@ -292,8 +294,8 @@
 
 	<dialogue key="wander dialogue 2 men">
 		<comment text="Look at this place" />
-		<comment text="It's so fucked up" />
-		<comment text="We need to fight for freedom!" />
+		<comment text="Our family and friends used to live here..." />
+		<comment text="We fight for freedom!" />
 	</dialogue>
 
 	<dialogue key="wander dialogue 2 men">
@@ -309,7 +311,7 @@
 	</dialogue>
   
 	<dialogue key="wander dialogue 2 men">
-		<comment text="Remember fight for god!" />
+		<comment text="Remember fight for Allah!" />
 	</dialogue>  
   
 	<dialogue key="wander dialogue 2 men">
@@ -603,7 +605,7 @@
   
 	<dialogue key="vehicle dialogue 2 men">
 		<comment text="When in doubt, empty your magazine" />
-		<comment text="What?" />
+		<comment text="Yes Brother!" />
 	</dialogue>   
   
 	<dialogue key="vehicle dialogue 2 men">
@@ -1035,7 +1037,7 @@
 	<comment key="we are attacking a base" text="Our forces are assaulting %base_name" />
 
 	<comment key="fighting near a base" text="Battle near the %base_name" />
-	<comment key="fighting near a base" text="Reinforcements requested near the %base_name" />
+	<comment key="fighting near a base" text="Men requested near the %base_name" />
 	<comment key="fighting near a base" text="Gun shots near the %base_name" />
 
 	<comment key="defense timer started" text="The %faction_name hold all the bases, %time_left seconds to go!" />
@@ -1059,7 +1061,7 @@
   <comment key="radio tower or truck objective" text="Keep your eyes open for radio towers or radar trucks" />
   <comment key="aa objective" text="Enemy anti-air weapons prevent air drops in the area; locate and destroy the site" />
 
-  <comment key="map start, ending" text="Godspeed, brothers" />
+  <comment key="map start, ending" text="May Allah be with you brothers" />
   <comment key="map start, ending" text="Good luck, brothers" />
 
   <comment key="map start with more bases, part 1" text="Good thing you joined us brothers" />
@@ -1091,13 +1093,13 @@
 
   <comment key="Final mission I start with 1 base, part 1" text="No! the airspace was expected to be safe!" />
   <comment key="Final mission I start with 1 base, part 2" text="Our brothers were killed! That leaves just you to carry out the mission" />
-  <comment key="Final mission I start with 1 base, part 3" text="You're on your own - air support can't be provided while the unknown situation lasts" />
+  <comment key="Final mission I start with 1 base, part 3" text="You're on your own - support can't be provided while the unknown situation lasts" />
   <comment key="Final mission I start with 1 base, part 4" text="Artillery and mortars are beyond reach, too" />
   <comment key="Final mission I start with 1 base, part 5" text="Locate and destroy the comms structures scattered in the area, and eliminate the enemy" />
 
   <comment key="Final mission II advance, held by enemy, part 1" text="Well done! %faction_name have been pushed back successfully" />
   <comment key="Final mission II advance, held by enemy, part 2" text="We tracked the remaining %faction_name forces having set camp at Frozen Canyon" />
-  <comment key="Final mission II advance, held by enemy, part 3" text="The platoon's location was compromised, they had to engage in combat severely outnumbered" />
+  <comment key="Final mission II advance, held by enemy, part 3" text="The men's location was compromised, they had to engage in combat severely outnumbered" />
   <comment key="Final mission II advance, held by enemy, part 4" text="The reinforcements transport leaves to the location immediately" />
   <comment key="Final mission II advance, held by enemy, part 5" text="Expect heavy resistance and tough weather conditions" />
 
@@ -1133,7 +1135,7 @@
   <comment key="item delivered" text="objective completed" />
   <comment key="item objective instruction" text="" />
   <comment key="item objective map text" text="" />
-  <comment key="item objective thanks" text="Nice Brother, let's see what what we do" />
+  <comment key="item objective thanks" text="Nice Brother, let's see what we can do" />
 
   <!-- enemy item delivery objective; weapons -->
   <comment key="enemy item objective instruction" text="" />
@@ -1213,6 +1215,6 @@
   <comment key="resource added in stock, supply" text="%resource_name available in supply quad now" />
 
   <!-- note, happens after "awesome, let's see what what we can come up with this" -->
-  <comment key="no more resources to unlock" text="Thanks, but we aren't going to gain any new items from this" />
+  <comment key="no more resources to unlock" text="Thanks, but we aren't going to gain anything from this" />
 
 </character>

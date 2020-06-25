@@ -2,8 +2,8 @@
 <call name="GBU" key="precision.call"
       initiation_comment1="Requesting CAS"
       initiation_comment2="Precision Bombing"
-      acknowledge_comment="Roger, tasking F-22 with GBU-12's, over"
-      launch_comment="F-22 is inbound, out"
+      acknowledge_comment="Roger, tasking A-10 with GBU-12's, over"
+      launch_comment="A-10 is inbound, out"
       notify_metagame="1">
 
     <round instances="1"
@@ -13,7 +13,7 @@
            common_spread="0 0 0" 
            launch_time="5.0"
            spawn_time="11.0">
-	   <effect class="launch" ref="ShadowAirplaneFlyby_F22" shadow="1" />
+	   <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
     </round>
 
 	<round instances="1"
@@ -23,10 +23,10 @@
 	common_spread="0 0 0" 
 	launch_time="5.0"
 	spawn_time="11.0">
-	<sound class="launch" fileref="f22_flyby.wav" volume="4.0" />
+	<sound class="spawn" fileref="a10_flyby2.wav" volume="4.0" />
 	</round>
 	
-    <hud_icon filename="hud_f22_raptor.png" />
+    <hud_icon filename="hud_a10_warthog.png" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="100" source="rank" source_value="0.1" />
     <inventory encumbrance="0.0" price="100.0" />

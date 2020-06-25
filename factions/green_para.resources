@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_calls="1" clear_weapons="1">
     
-	<weapon key='m16a2.weapon' />
+	<weapon key='mp7.weapon' />
 	<weapon key='m4.weapon' />
 	<weapon key='m249.weapon' />
 	<weapon key='p90.weapon' />
     
 	<weapon key='m136.weapon' />     
+	<weapon key='maaws.weapon' />
 
 	<projectile key='m67_grenade.projectile' />
 	<projectile key='stun_grenade.projectile' />    

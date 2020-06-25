@@ -6,9 +6,20 @@
 	<projectile key='flare.projectile' />
 	<projectile key='at_mine.projectile' />
 	<projectile key='rock_false.projectile' />
+	<projectile key='rkg_grenade.projectile' />
 
-	<weapon key='bayonet_n.weapon' />
+	<carry_item key='hidden_bomb.carry_item' enabled="1" />
+	<weapon key='fake_gem.weapon' enabled="1" />
+
 	<weapon key='bandage2.weapon' />
+
+	<carry_item key='vest1.carry_item' enabled="1" />
+	<carry_item key='vest2.carry_item' enabled="1" />
+	<carry_item key='vest3.carry_item' enabled="0" />
+	<carry_item key='suicide_vest.carry_item' enabled="1" />
+	<carry_item key='suicide_vest2_5.carry_item' enabled="1" />
+	<carry_item key='suicide_vest3.carry_item' enabled="1" />
+	<carry_item key='suicide_vest3_5.carry_item' enabled="1" />		
 
  	<vehicle key="jeep_1.vehicle" />
  	<vehicle key="apc_1.vehicle" />
@@ -24,7 +35,8 @@
 	<call key="artillery1.call" />
 	<call key="artillery2.call" />
 	<call key="paratroopers1.call" />
-	<call key="paratroopers2.call" />
+	<call key="hidden_troops.call" />
+	<call key="suicide.call" />	
 	<call key="paratroopers_medic.call" />    
 	<call key="cheap_cover.call" />
 	<call key="technical.call" />

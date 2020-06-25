@@ -1,0 +1,25 @@
+<vehicle file="vehicle_base.vehicle" name="BRDM-2" key="brdm_para.vehicle" respawn_time="0" time_to_live_unsteerable="75" map_view_atlas_index="1" minimum_fill_requirement="0.25" time_to_live="3.5">
+	<tag name="metal_thin" />
+	<tag name="noxe_para" />    
+
+	<tire_set offset="1.20 0.0 1.46" radius="0.68" />
+	<tire_set offset="1.28 0.0 -1.74" radius="0.68" />
+
+	<control max_speed="24.0" acceleration="8" max_reverse_speed="6.0" min_health_to_steer="0.36" max_rotation="0.85" max_water_depth="1.9" steer_smoothening="0.7" can_steer_on_ground="0" />
+
+	<physics max_health="0" blast_damage_threshold="0.17" TODO_blast_damage_threshold="1.02" mass="6.0" extent="3.0 0.0 4.0" offset="0 0.0 0" top_offset="0 7 0" collision_model_pos="0 0.8 0" collision_model_extent="3 2.4 5.6" visual_offset="0 0.25 0" friction_offset="0.0" drag_offset="-0.05" gravity="-10" /> 
+
+	<turret offset="0 2.69 -1.55" weapon_key="noxe.weapon" weapon_offset="-0.6 0.5 0.5" weapon_recoil="0.1" max_rotation_step="0.0001" />
+	<turret offset="0 2.69 -1.55" weapon_key="noxe.weapon" weapon_offset="+0.6 0.5 0.5" weapon_recoil="0.1" max_rotation_step="0.0001" />
+	<turret offset="0 2.5 0.0" weapon_key="chute_large.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0" max_rotation_step="0.0" rotation_range="0.0" />
+
+	<visual class="chassis" mesh_filename="noxe_body.mesh" texture_filename="noxe.png" />
+	<visual class="tire" mesh_filename="apc_wheel.mesh" texture_filename="apc_wheel.png" />
+	<visual class="turret" mesh_filename="noxe_turret.mesh" texture_filename="noxe.png" />
+ 
+	<event>
+		<trigger class="destroy" />  	
+    		<result class="spawn" instance_class="vehicle" instance_key="brdm.vehicle" min_amount="1" max_amount="1" offset="0 0.0 0" position_spread="0 0" direction_spread="0 -1" />
+	</event> 
+
+</vehicle>
