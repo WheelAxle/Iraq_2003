@@ -7,6 +7,11 @@
 
 	<weapon key='rpg-7.weapon' />
 
+	<carry_item key='suicide_vest.carry_item' enabled="0" />
+	<carry_item key='suicide_vest2_5.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3_5.carry_item' enabled="0" />
+
 	<call key='mortar1.call' />
 
 </resources>

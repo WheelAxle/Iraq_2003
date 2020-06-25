@@ -3,6 +3,10 @@
 	<weapon key='ns2000.weapon' />
 	<weapon key='ns2000op.weapon' />
 	
+	<carry_item key='suicide_vest.carry_item' enabled="0" />
+	<carry_item key='suicide_vest2_5.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3_5.carry_item' enabled="0" />	
 
 	<projectile key='f1_grenade.projectile' enabled="1" />
 	<projectile key='impact_grenade.projectile' enabled="1" />

@@ -3,4 +3,9 @@
 	<weapon key='m16a1.weapon' />
 	<weapon key='sks.weapon' />
 	
+	<carry_item key='suicide_vest.carry_item' enabled="0" />
+	<carry_item key='suicide_vest2_5.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3_5.carry_item' enabled="0" />
+
 </resources>

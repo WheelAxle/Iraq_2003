@@ -7,5 +7,10 @@
 	<weapon key='rpg-7.weapon' /> 
 	<weapon key='m202_flash.weapon' />
 
+	<carry_item key='suicide_vest.carry_item' enabled="0" />
+	<carry_item key='suicide_vest2_5.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3.carry_item' enabled="0" />
+	<carry_item key='suicide_vest3_5.carry_item' enabled="0" />
+
 	<projectile key='f1_grenade.projectile' />
 </resources>

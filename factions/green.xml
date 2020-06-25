@@ -104,12 +104,13 @@
 	</soldier>
 	
 	<!-- -------------- -->
-	<!-- miniboss group -->
+	<!-- miniboss delta -->
 	<!-- -------------- -->
 	<soldier name="miniboss" spawn_score="0.005" squad_size_xp_cap="0.5">
 		<character filename="default_miniboss_male.character" />
 		<ai filename="elite.ai" />
 		<model filename="soldier_elite_a1.xml" />
+		<model filename="soldier_elite_a2.xml" />
 
 		<resources file="common_miniboss.resources" />
 		<resources file="green_miniboss.resources" />
@@ -157,12 +158,12 @@
 	</soldier>
 
 	<!-- -------------- -->
-	<!-- miniboss female -->
+	<!-- miniboss seal -->
 	<!-- -------------- -->
 	<soldier name="miniboss_female" spawn_score="0.005" squad_size_xp_cap="0.5" firstnames_file="english_firstnames.txt" lastnames_file="english_lastnames.txt" >
 		<character filename="default_miniboss_male.character" />
 		<ai filename="elite.ai" />
-		<model filename="soldier_elite_a2.xml" />  
+		<model filename="soldier_elite_a3.xml" />  
 
 		<!-- inherits initial config from default group -->
 		<resources file="common_miniboss.resources" />
