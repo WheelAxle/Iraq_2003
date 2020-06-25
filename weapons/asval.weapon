@@ -11,7 +11,7 @@
   suppressed="1" 
   name="AS VAL" 
   class="0" 
-  projectile_speed="100.0" 
+  projectile_speed="90.0" 
   barrel_offset="0.8" />
 
     <animation key="recoil" ref="12" />
